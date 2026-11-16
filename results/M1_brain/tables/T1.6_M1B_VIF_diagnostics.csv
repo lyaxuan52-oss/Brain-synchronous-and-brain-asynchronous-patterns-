@@ -1,0 +1,112 @@
+metric,class,max_VIF,worst_predictor,warn,n
+BrainSegVol,A,2.2547365121763066,gender,ok,3960
+BrainSegVolNotVent,A,2.2547365121763066,gender,ok,3960
+VentricleChoroidVol,A,2.2547365121763066,gender,ok,3960
+lhCortexVol,A,2.2547365121763066,gender,ok,3960
+rhCortexVol,A,2.2547365121763066,gender,ok,3960
+CortexVol,A,2.2547365121763066,gender,ok,3960
+lhCerebralWhiteMatterVol,A,2.2547365121763066,gender,ok,3960
+rhCerebralWhiteMatterVol,A,2.2547365121763066,gender,ok,3960
+CerebralWhiteMatterVol,A,2.2547365121763066,gender,ok,3960
+SubCortGrayVol,A,2.2547365121763066,gender,ok,3960
+TotalGrayVol,A,2.2547365121763066,gender,ok,3960
+SupraTentorialVol,A,2.2547365121763066,gender,ok,3960
+SupraTentorialVolNotVent,A,2.2547365121763066,gender,ok,3960
+MaskVol,A,2.2547365121763066,gender,ok,3960
+BrainSegVol-to-eTIV,A,1.749843036228367,gender,ok,3960
+MaskVol-to-eTIV,A,1.749843036228367,gender,ok,3960
+lhSurfaceHoles,A,1.749843036228367,gender,ok,3960
+rhSurfaceHoles,A,1.749843036228367,gender,ok,3960
+SurfaceHoles,A,1.749843036228367,gender,ok,3960
+lhWhiteSurfArea,A,1.749843036228367,gender,ok,3960
+rhWhiteSurfArea,A,1.749843036228367,gender,ok,3960
+lhMeanThickness,A,1.749843036228367,gender,ok,3960
+rhMeanThickness,A,1.749843036228367,gender,ok,3960
+GlobalMeanThickness,A,1.749843036228367,gender,ok,3960
+TotalSurfArea,A,1.749843036228367,gender,ok,3960
+lhEulerNumber,A,1.749843036228367,gender,ok,3960
+rhEulerNumber,A,1.749843036228367,gender,ok,3960
+TotalEulerNumber,A,1.749843036228367,gender,ok,3960
+lhMeanFoldInd,A,1.749843036228367,gender,ok,3960
+rhMeanFoldInd,A,1.749843036228367,gender,ok,3960
+GlobalFoldInd,A,1.749843036228367,gender,ok,3960
+lhMeanCurvInd,A,1.749843036228367,gender,ok,3960
+rhMeanCurvInd,A,1.749843036228367,gender,ok,3960
+GlobalCurvInd,A,1.749843036228367,gender,ok,3960
+Volume of Thalamus-Proper (left hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Caudate (left hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Putamen (left hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Pallidum (left hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Brain-Stem (whole brain),B,2.2547365121763066,gender,ok,3960
+Volume of Hippocampus (left hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Amygdala (left hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Accumbens-area (left hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Thalamus-Proper (right hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Caudate (right hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Putamen (right hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Pallidum (right hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Hippocampus (right hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Amygdala (right hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of Accumbens-area (right hemisphere),B,2.2547365121763066,gender,ok,3960
+Volume of caudalanteriorcingulate (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of caudalanteriorcingulate (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of caudalmiddlefrontal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of caudalmiddlefrontal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of cuneus (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of cuneus (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of entorhinal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of entorhinal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of fusiform (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of fusiform (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of inferiorparietal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of inferiorparietal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of inferiortemporal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of inferiortemporal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of insula (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of insula (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of isthmuscingulate (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of isthmuscingulate (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of lateraloccipital (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of lateraloccipital (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of lateralorbitofrontal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of lateralorbitofrontal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of lingual (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of lingual (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of medialorbitofrontal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of medialorbitofrontal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of middletemporal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of middletemporal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of paracentral (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of paracentral (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of parahippocampal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of parahippocampal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of parsopercularis (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of parsopercularis (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of parsorbitalis (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of parsorbitalis (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of parstriangularis (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of parstriangularis (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of pericalcarine (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of pericalcarine (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of postcentral (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of postcentral (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of posteriorcingulate (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of posteriorcingulate (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of precentral (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of precentral (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of precuneus (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of precuneus (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of rostralanteriorcingulate (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of rostralanteriorcingulate (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of rostralmiddlefrontal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of rostralmiddlefrontal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of superiorfrontal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of superiorfrontal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of superiorparietal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of superiorparietal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of superiortemporal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of superiortemporal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of supramarginal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of supramarginal (right hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of transversetemporal (left hemisphere),C,2.2547365121763066,gender,ok,3960
+Volume of transversetemporal (right hemisphere),C,2.2547365121763066,gender,ok,3960

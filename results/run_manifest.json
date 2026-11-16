@@ -1,0 +1,120 @@
+{
+  "pipeline": "organ-aging multi-module analysis",
+  "timestamp": "2026-07-08 14:41:15",
+  "elapsed_seconds": 1115.4,
+  "random_seed": 12345,
+  "software": {
+    "python": "3.12.8",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.11.0",
+    "seaborn": "0.13.2"
+  },
+  "parameters": {
+    "FDR_alpha": 0.05,
+    "fdr_methods": [
+      "BH (per-organ family)",
+      "BY (global)"
+    ],
+    "bootstrap_n": 200,
+    "bootstrap_ci": "BCa",
+    "winsor_sd": 3.0,
+    "extreme_top_pct": 0.2,
+    "extreme_alt_z": 1.0,
+    "disease_min_cases_primary": 50,
+    "disease_min_cases_cohensd": 30,
+    "partial_corr_method": "direct multiple OLS regression (no residualisation)",
+    "mediation_prescreen": {
+      "MY_p": 0.05,
+      "XY_trend_p": 0.1,
+      "bootstrap_cap": null,
+      "bootstrap_all_prescreened": true
+    }
+  },
+  "organs": [
+    "Adipose",
+    "Adrenal",
+    "Artery",
+    "Brain",
+    "Esophagus",
+    "Heart",
+    "Immune",
+    "Intestine",
+    "Kidney",
+    "Liver",
+    "Lung",
+    "Muscle",
+    "Pancreas",
+    "Pituitary",
+    "Salivary",
+    "Skin",
+    "Stomach",
+    "Thyroid"
+  ],
+  "central_organ": "Brain",
+  "n_brain_metrics": 111,
+  "brain_metric_classes": {
+    "C": 62,
+    "A": 34,
+    "B": 15
+  },
+  "n_disease_columns": 35,
+  "diseases_included_primary": [
+    "hypertension",
+    "asthma",
+    "depressive episode",
+    "arthritis",
+    "type 2 diabetes",
+    "gallbladder diseases",
+    "anxiety disorders",
+    "coronary heart disease",
+    "angina pectoris",
+    "anaemias",
+    "psoriasis",
+    "venous thrombosis",
+    "renal failure",
+    "stroke",
+    "colitis",
+    "conduction disorders",
+    "pulmonary heart diseases"
+  ],
+  "sample_composition": {
+    "N_total_age_gap": 44810,
+    "N_with_demographics": 7954,
+    "N_brain_global(eTIV)": 3960,
+    "N_brain_global(BrainSegVol)": 3960,
+    "N_brain_subcortical": 5653,
+    "N_disease": 7383,
+    "N_cog_FluidIntelligence": 7282,
+    "N_cog_ReactionTime": 7352,
+    "N_cog_NumericMemory": 3796,
+    "N_cog_TowerRearranging": 3653,
+    "N_cog_PairedAssociateLearning": 6152,
+    "N_cog_TrailMaking_Numeric": 6095,
+    "N_cog_TrailMaking_Alphanumeric": 5949
+  },
+  "results_summary": {
+    "M1A_significant_BH": 181,
+    "M4_significant_mediations": 488,
+    "M5_significant_interactions_BH": 2
+  },
+  "inputs": {
+    "age_gap": "merged_age_gap.csv",
+    "brain_global": "全局脑指标.csv",
+    "brain_subcort": "脑结构指标.csv",
+    "brain_cortex": "脑结构指标2.csv",
+    "clinical": "Clinical_vars.csv",
+    "cognition": "Cognition9.csv",
+    "disease": "final_analysis_table.csv"
+  },
+  "outputs": {
+    "M0": "results/M0_descriptive",
+    "M1": "results/M1_brain",
+    "M2": "results/M2_disease",
+    "M3": "results/M3_cognition",
+    "M4": "results/M4_mediation",
+    "M5": "results/M5_sex"
+  }
+}

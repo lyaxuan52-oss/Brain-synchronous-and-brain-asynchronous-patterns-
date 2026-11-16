@@ -1,0 +1,27 @@
+{
+  "organ": "Artery",
+  "intercept": 56.80638501293598,
+  "coefficients": {
+    "olink_instance_0.acan": -0.4057113381260167,
+    "olink_instance_0.bgn": -0.27626893996152235,
+    "olink_instance_0.crlf1": -1.0656348646642804,
+    "olink_instance_0.cytl1": -0.85912667172873,
+    "olink_instance_0.eln": 3.390331811663742,
+    "olink_instance_0.frzb": 0.1276888463726274,
+    "olink_instance_0.itgbl1": 0.6784058858695945,
+    "olink_instance_0.ltbp2": 1.856935797238747,
+    "olink_instance_0.mfge8": -0.17158573081501277,
+    "olink_instance_0.sost": 0.7866750032345072,
+    "olink_instance_0.susd5": 0.9694919683018017,
+    "olink_instance_0.thbs2": -1.4947097080322174,
+    "olink_instance_0.tnfrsf11b": 1.2528507975884637,
+    "olink_instance_0.vcan": -0.08142244086911621
+  },
+  "alpha": 0.005232436599563738,
+  "n_features": 14,
+  "n_features_selected": 14,
+  "train_r2": 0.531184028023074,
+  "test_r2": 0.5267093194610081,
+  "train_mae": 4.556228760215361,
+  "test_mae": 4.563132872531825
+}

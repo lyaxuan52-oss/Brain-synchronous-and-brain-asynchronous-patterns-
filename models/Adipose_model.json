@@ -1,0 +1,18 @@
+{
+  "organ": "Adipose",
+  "intercept": 56.77027613005585,
+  "coefficients": {
+    "olink_instance_0.adipoq": 1.0173270191172283,
+    "olink_instance_0.cd300lg": 0.19219447410897367,
+    "olink_instance_0.fabp4": 2.0181876987727376,
+    "olink_instance_0.lep": -0.9605961676748912,
+    "olink_instance_0.plin1": 0.43784122016582816
+  },
+  "alpha": 0.0016240607556075642,
+  "n_features": 5,
+  "n_features_selected": 5,
+  "train_r2": 0.0643987894553284,
+  "test_r2": 0.06930369234685985,
+  "train_mae": 6.738937526184711,
+  "test_mae": 6.67433299205517
+}

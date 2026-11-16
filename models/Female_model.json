@@ -1,0 +1,19 @@
+{
+  "organ": "Female",
+  "intercept": 56.759817053342296,
+  "coefficients": {
+    "olink_instance_0.esr1": 0.06619837698347032,
+    "olink_instance_0.lefty2": 1.8289590487939638,
+    "olink_instance_0.paep": -3.1168268657013485,
+    "olink_instance_0.pgr": -0.17337435387466535,
+    "olink_instance_0.wfikkn2": -0.13582583855928584,
+    "olink_instance_0.zp4": -0.16739369096252424
+  },
+  "alpha": 0.002960681836957385,
+  "n_features": 6,
+  "n_features_selected": 6,
+  "train_r2": 0.18003829762037982,
+  "test_r2": 0.16644094501800755,
+  "train_mae": 6.150885472493299,
+  "test_mae": 6.1672354448400055
+}

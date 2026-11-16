@@ -1,0 +1,30 @@
+{
+  "organ": "Muscle",
+  "intercept": 56.80002655258431,
+  "coefficients": {
+    "olink_instance_0.atp1b4": 0.06600410107136392,
+    "olink_instance_0.ca3": 0.5090998908505848,
+    "olink_instance_0.egln1": 0.612793420409747,
+    "olink_instance_0.eno3": -1.3102826483094567,
+    "olink_instance_0.fgf6": 0.05369199325283563,
+    "olink_instance_0.idi2": 0.2567071285788164,
+    "olink_instance_0.klhl41": -0.7309876562176932,
+    "olink_instance_0.mybpc1": 2.8995944522442105,
+    "olink_instance_0.mybpc2": -0.39672807881813327,
+    "olink_instance_0.myh4": 0.056450867451320455,
+    "olink_instance_0.myl1": -0.12383120868550807,
+    "olink_instance_0.mylpf": -0.41945917241596675,
+    "olink_instance_0.neb": -0.10967294802027627,
+    "olink_instance_0.prkag3": 0.1268642267695727,
+    "olink_instance_0.ryr1": 0.1068087934291224,
+    "olink_instance_0.tmod4": -0.09126812980444281,
+    "olink_instance_0.tpm3": -0.35814484666434787
+  },
+  "alpha": 0.0018257671331635887,
+  "n_features": 17,
+  "n_features_selected": 17,
+  "train_r2": 0.10168068400948405,
+  "test_r2": 0.10361918856420804,
+  "train_mae": 6.558205588302016,
+  "test_mae": 6.512126273730104
+}

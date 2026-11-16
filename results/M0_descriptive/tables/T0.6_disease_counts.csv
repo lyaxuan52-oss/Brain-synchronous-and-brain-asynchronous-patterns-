@@ -1,0 +1,36 @@
+disease,n_case,n_control,n_valid,prevalence_pct,is_neuro,included_primary(>=50),cohens_d_only(>=30)
+hypertension,2288,5095,7383,30.9901124204253,False,True,False
+asthma,1042,6341,7383,14.113503995665718,False,True,False
+depressive episode,809,6574,7383,10.957605309494785,True,True,False
+arthritis,784,6599,7383,10.618989570635243,False,True,False
+type 2 diabetes,369,7014,7383,4.997968305566843,False,True,False
+gallbladder diseases,330,7053,7383,4.469727752945957,False,True,False
+anxiety disorders,329,7054,7383,4.456183123391575,True,True,False
+coronary heart disease,293,7090,7383,3.9685764594338346,False,True,False
+angina pectoris,293,7090,7383,3.9685764594338346,False,True,False
+anaemias,203,7180,7383,2.7495597995394827,False,True,False
+psoriasis,190,7193,7383,2.573479615332521,False,True,False
+venous thrombosis,168,7215,7383,2.2754977651361235,False,True,False
+renal failure,128,7255,7383,1.733712582960856,False,True,False
+stroke,119,7264,7383,1.6118109169714208,True,True,False
+colitis,96,7287,7383,1.300284437220642,False,True,False
+conduction disorders,96,7287,7383,1.300284437220642,False,True,False
+pulmonary heart diseases,83,7300,7383,1.12420425301368,False,True,False
+blood diseases,49,7334,7383,0.6636868481647027,False,False,True
+pancreas diseases,46,7337,7383,0.6230529595015576,False,False,True
+urinary tract cancer,23,7360,7383,0.3115264797507788,False,False,False
+parkinsonism,23,7360,7383,0.3115264797507788,True,False,False
+arteries disorders,16,7367,7383,0.216714072870107,False,False,False
+chronic obstructive pulmonary disease,12,7371,7383,0.16253555465258024,False,False,False
+cardiac arrhythmias,11,7372,7383,0.14899092509819856,False,False,False
+digestive system cancer,9,7374,7383,0.12190166598943519,False,False,False
+dementia,8,7375,7383,0.1083570364350535,True,False,False
+liver diseases,8,7375,7383,0.1083570364350535,False,False,False
+immunodeficiencies,6,7377,7383,0.08126777732629012,False,False,False
+lymphoma and blood cancer,6,7377,7383,0.08126777732629012,False,False,False
+structual heart diseases,4,7379,7383,0.05417851821752675,False,False,False
+systemic connective tissue diseases,3,7380,7383,0.04063388866314506,False,False,False
+thyroid disorder,1,7382,7383,0.013544629554381687,False,False,False
+rheumatic heart diseases,0,7383,7383,0.0,False,False,False
+nephrotic syndrome,0,7383,7383,0.0,False,False,False
+respiratory system cancer,0,7383,7383,0.0,False,False,False

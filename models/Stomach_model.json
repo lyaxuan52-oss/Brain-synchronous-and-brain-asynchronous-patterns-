@@ -1,0 +1,25 @@
+{
+  "organ": "Stomach",
+  "intercept": 56.80400006091278,
+  "coefficients": {
+    "olink_instance_0.ca9": 0.028328417727882027,
+    "olink_instance_0.cblif": 0.6728278438935567,
+    "olink_instance_0.ctse": 0.1554917355415981,
+    "olink_instance_0.gast": 0.6291272600597426,
+    "olink_instance_0.ghrl": 0.24733124397527093,
+    "olink_instance_0.gkn1": 0.3014612741333381,
+    "olink_instance_0.lipf": 0.633697769978442,
+    "olink_instance_0.mmp1": 0.701693705633095,
+    "olink_instance_0.mucl3": -0.19523473690013543,
+    "olink_instance_0.pga4": -0.41976513491078216,
+    "olink_instance_0.tff1": 1.203389549222402,
+    "olink_instance_0.tff2": 0.4149637202101586
+  },
+  "alpha": 0.00203579088662349,
+  "n_features": 12,
+  "n_features_selected": 12,
+  "train_r2": 0.09830356827100672,
+  "test_r2": 0.09608978422030878,
+  "train_mae": 6.584789633459283,
+  "test_mae": 6.558778307631123
+}

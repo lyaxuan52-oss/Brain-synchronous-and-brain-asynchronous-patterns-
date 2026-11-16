@@ -1,0 +1,524 @@
+chain,organ,mediator,outcome,xm_beta,my_beta,my_p
+cognition,Adrenal,BrainSegVol,NumericMemory,-0.020479499751036925,0.18441520839709133,0.001330944897227882
+cognition,Kidney,BrainSegVol,FluidIntelligence,-0.01979784785851285,0.1324013367349701,0.003719293304155847
+cognition,Kidney,BrainSegVol,ReactionTime,-0.01979784785851285,-0.1388481167758458,0.001737473163214188
+cognition,Kidney,BrainSegVol,TrailMaking_Numeric,-0.01979784785851285,-0.22693341318112847,2.40717754160734e-06
+cognition,Kidney,BrainSegVol,TrailMaking_Alphanumeric,-0.01979784785851285,-0.26137176494181336,6.146337335236542e-08
+cognition,Muscle,BrainSegVol,FluidIntelligence,-0.01742463083389773,0.1324013367349701,0.003719293304155847
+cognition,Muscle,BrainSegVol,ReactionTime,-0.01742463083389773,-0.1388481167758458,0.001737473163214188
+cognition,Muscle,BrainSegVol,NumericMemory,-0.01742463083389773,0.18441520839709133,0.001330944897227882
+cognition,Muscle,BrainSegVol,TrailMaking_Numeric,-0.01742463083389773,-0.22693341318112847,2.40717754160734e-06
+cognition,Muscle,BrainSegVol,TrailMaking_Alphanumeric,-0.01742463083389773,-0.26137176494181336,6.146337335236542e-08
+cognition,Pituitary,BrainSegVol,NumericMemory,0.039070121345059744,0.18441520839709133,0.001330944897227882
+cognition,Pituitary,BrainSegVol,TrailMaking_Alphanumeric,0.039070121345059744,-0.26137176494181336,6.146337335236542e-08
+cognition,Adrenal,BrainSegVolNotVent,NumericMemory,-0.01988383554902537,0.17313403336324448,0.0009052270978600754
+cognition,Kidney,BrainSegVolNotVent,FluidIntelligence,-0.023541852767272282,0.12164677230838557,0.0032062077763152555
+cognition,Kidney,BrainSegVolNotVent,ReactionTime,-0.023541852767272282,-0.1512271995314638,0.00016078607798334325
+cognition,Kidney,BrainSegVolNotVent,TrailMaking_Numeric,-0.023541852767272282,-0.22321007712049493,3.105449079850956e-07
+cognition,Kidney,BrainSegVolNotVent,TrailMaking_Alphanumeric,-0.023541852767272282,-0.2313980680235528,1.2660764346977887e-07
+cognition,Muscle,BrainSegVolNotVent,FluidIntelligence,-0.02129549308813337,0.12164677230838557,0.0032062077763152555
+cognition,Muscle,BrainSegVolNotVent,ReactionTime,-0.02129549308813337,-0.1512271995314638,0.00016078607798334325
+cognition,Muscle,BrainSegVolNotVent,NumericMemory,-0.02129549308813337,0.17313403336324448,0.0009052270978600754
+cognition,Muscle,BrainSegVolNotVent,TrailMaking_Numeric,-0.02129549308813337,-0.22321007712049493,3.105449079850956e-07
+cognition,Muscle,BrainSegVolNotVent,TrailMaking_Alphanumeric,-0.02129549308813337,-0.2313980680235528,1.2660764346977887e-07
+cognition,Pituitary,BrainSegVolNotVent,NumericMemory,0.04249807635291893,0.17313403336324448,0.0009052270978600754
+cognition,Pituitary,BrainSegVolNotVent,TrailMaking_Alphanumeric,0.04249807635291893,-0.2313980680235528,1.2660764346977887e-07
+cognition,Salivary,BrainSegVolNotVent,ReactionTime,-0.01909052626472597,-0.1512271995314638,0.00016078607798334325
+cognition,Salivary,BrainSegVolNotVent,NumericMemory,-0.01909052626472597,0.17313403336324448,0.0009052270978600754
+cognition,Salivary,BrainSegVolNotVent,TrailMaking_Numeric,-0.01909052626472597,-0.22321007712049493,3.105449079850956e-07
+cognition,Salivary,BrainSegVolNotVent,TrailMaking_Alphanumeric,-0.01909052626472597,-0.2313980680235528,1.2660764346977887e-07
+cognition,Brain,VentricleChoroidVol,ReactionTime,0.04817510250006794,0.05720367423017532,0.003043239060172908
+cognition,Brain,VentricleChoroidVol,TrailMaking_Numeric,0.04817510250006794,0.050713287004953284,0.01438422383351715
+cognition,Intestine,VentricleChoroidVol,ReactionTime,0.04704788295676617,0.05720367423017532,0.003043239060172908
+cognition,Intestine,VentricleChoroidVol,TowerRearranging,0.04704788295676617,-0.056394830269125465,0.0240560311051797
+cognition,Intestine,VentricleChoroidVol,TrailMaking_Numeric,0.04704788295676617,0.050713287004953284,0.01438422383351715
+cognition,Brain,lhCortexVol,TrailMaking_Numeric,-0.044140703875775504,-0.1093017135706897,0.0007904521940720951
+cognition,Brain,lhCortexVol,TrailMaking_Alphanumeric,-0.044140703875775504,-0.11798668423950812,0.0003150061046046698
+cognition,Pituitary,lhCortexVol,NumericMemory,0.032312105575376344,0.13810154286801687,0.000391168343920581
+cognition,Pituitary,lhCortexVol,TrailMaking_Alphanumeric,0.032312105575376344,-0.11798668423950812,0.0003150061046046698
+cognition,Brain,rhCortexVol,TrailMaking_Numeric,-0.04343870197482813,-0.10740617927528928,0.0007839697873114361
+cognition,Brain,rhCortexVol,TrailMaking_Alphanumeric,-0.04343870197482813,-0.11433680817362038,0.00037925379385955754
+cognition,Pituitary,rhCortexVol,NumericMemory,0.03464158521499261,0.12764186653476614,0.000844062598335047
+cognition,Pituitary,rhCortexVol,TrailMaking_Alphanumeric,0.03464158521499261,-0.11433680817362038,0.00037925379385955754
+cognition,Brain,CortexVol,TrailMaking_Numeric,-0.044556532187046756,-0.12095689535755323,0.0003463222690720701
+cognition,Brain,CortexVol,TrailMaking_Alphanumeric,-0.044556532187046756,-0.12963998617905628,0.00013742122068659802
+cognition,Pituitary,CortexVol,NumericMemory,0.0340689604177559,0.148470563499957,0.00024238186960415372
+cognition,Pituitary,CortexVol,TrailMaking_Alphanumeric,0.0340689604177559,-0.12963998617905628,0.00013742122068659802
+cognition,Brain,lhCerebralWhiteMatterVol,ReactionTime,0.039143625467346184,-0.11809334326910634,0.00016915900942552885
+cognition,Brain,lhCerebralWhiteMatterVol,TrailMaking_Numeric,0.039143625467346184,-0.1217986593351502,0.0003332356645817099
+cognition,Brain,lhCerebralWhiteMatterVol,TrailMaking_Alphanumeric,0.039143625467346184,-0.1142869924477194,0.0008037253824930824
+cognition,Kidney,lhCerebralWhiteMatterVol,ReactionTime,-0.02407725148055611,-0.11809334326910634,0.00016915900942552885
+cognition,Kidney,lhCerebralWhiteMatterVol,TrailMaking_Numeric,-0.02407725148055611,-0.1217986593351502,0.0003332356645817099
+cognition,Kidney,lhCerebralWhiteMatterVol,TrailMaking_Alphanumeric,-0.02407725148055611,-0.1142869924477194,0.0008037253824930824
+cognition,Muscle,lhCerebralWhiteMatterVol,ReactionTime,-0.02688981585089774,-0.11809334326910634,0.00016915900942552885
+cognition,Muscle,lhCerebralWhiteMatterVol,TrailMaking_Numeric,-0.02688981585089774,-0.1217986593351502,0.0003332356645817099
+cognition,Muscle,lhCerebralWhiteMatterVol,TrailMaking_Alphanumeric,-0.02688981585089774,-0.1142869924477194,0.0008037253824930824
+cognition,Pituitary,lhCerebralWhiteMatterVol,TrailMaking_Alphanumeric,0.040961164801224435,-0.1142869924477194,0.0008037253824930824
+cognition,Brain,rhCerebralWhiteMatterVol,ReactionTime,0.03928180083267616,-0.11930767445787559,0.00016275542041843953
+cognition,Brain,rhCerebralWhiteMatterVol,TrailMaking_Numeric,0.03928180083267616,-0.12571895506052586,0.0002325877404128761
+cognition,Brain,rhCerebralWhiteMatterVol,TrailMaking_Alphanumeric,0.03928180083267616,-0.11396085435822832,0.0008947334484712924
+cognition,Kidney,rhCerebralWhiteMatterVol,ReactionTime,-0.024956535800086856,-0.11930767445787559,0.00016275542041843953
+cognition,Kidney,rhCerebralWhiteMatterVol,TrailMaking_Numeric,-0.024956535800086856,-0.12571895506052586,0.0002325877404128761
+cognition,Kidney,rhCerebralWhiteMatterVol,TrailMaking_Alphanumeric,-0.024956535800086856,-0.11396085435822832,0.0008947334484712924
+cognition,Muscle,rhCerebralWhiteMatterVol,ReactionTime,-0.025370371135776896,-0.11930767445787559,0.00016275542041843953
+cognition,Muscle,rhCerebralWhiteMatterVol,TrailMaking_Numeric,-0.025370371135776896,-0.12571895506052586,0.0002325877404128761
+cognition,Muscle,rhCerebralWhiteMatterVol,TrailMaking_Alphanumeric,-0.025370371135776896,-0.11396085435822832,0.0008947334484712924
+cognition,Pituitary,rhCerebralWhiteMatterVol,TrailMaking_Alphanumeric,0.040523829476299,-0.11396085435822832,0.0008947334484712924
+cognition,Brain,CerebralWhiteMatterVol,ReactionTime,0.03927305026002965,-0.11999219452382019,0.00015106352740986632
+cognition,Brain,CerebralWhiteMatterVol,TrailMaking_Numeric,0.03927305026002965,-0.12509775817312835,0.0002552829219657485
+cognition,Brain,CerebralWhiteMatterVol,TrailMaking_Alphanumeric,0.03927305026002965,-0.11535880509895108,0.0007873822562610784
+cognition,Kidney,CerebralWhiteMatterVol,ReactionTime,-0.024556001640198447,-0.11999219452382019,0.00015106352740986632
+cognition,Kidney,CerebralWhiteMatterVol,TrailMaking_Numeric,-0.024556001640198447,-0.12509775817312835,0.0002552829219657485
+cognition,Kidney,CerebralWhiteMatterVol,TrailMaking_Alphanumeric,-0.024556001640198447,-0.11535880509895108,0.0007873822562610784
+cognition,Muscle,CerebralWhiteMatterVol,ReactionTime,-0.026167488205860307,-0.11999219452382019,0.00015106352740986632
+cognition,Muscle,CerebralWhiteMatterVol,TrailMaking_Numeric,-0.026167488205860307,-0.12509775817312835,0.0002552829219657485
+cognition,Muscle,CerebralWhiteMatterVol,TrailMaking_Alphanumeric,-0.026167488205860307,-0.11535880509895108,0.0007873822562610784
+cognition,Pituitary,CerebralWhiteMatterVol,TrailMaking_Alphanumeric,0.04080417450482737,-0.11535880509895108,0.0007873822562610784
+cognition,Kidney,SubCortGrayVol,FluidIntelligence,-0.031116059346144836,0.05712384305039381,0.04173848772178421
+cognition,Kidney,SubCortGrayVol,ReactionTime,-0.031116059346144836,-0.08716063094221654,0.0013821299028362554
+cognition,Kidney,SubCortGrayVol,TrailMaking_Numeric,-0.031116059346144836,-0.08795276086856903,0.0028874913113322554
+cognition,Muscle,SubCortGrayVol,FluidIntelligence,-0.02829168746972782,0.05712384305039381,0.04173848772178421
+cognition,Muscle,SubCortGrayVol,ReactionTime,-0.02829168746972782,-0.08716063094221654,0.0013821299028362554
+cognition,Muscle,SubCortGrayVol,NumericMemory,-0.02829168746972782,0.07277006896592027,0.040296188230483906
+cognition,Muscle,SubCortGrayVol,TrailMaking_Numeric,-0.02829168746972782,-0.08795276086856903,0.0028874913113322554
+cognition,Pituitary,SubCortGrayVol,NumericMemory,0.046488679170573914,0.07277006896592027,0.040296188230483906
+cognition,Salivary,SubCortGrayVol,ReactionTime,-0.027736123739377106,-0.08716063094221654,0.0013821299028362554
+cognition,Salivary,SubCortGrayVol,NumericMemory,-0.027736123739377106,0.07277006896592027,0.040296188230483906
+cognition,Salivary,SubCortGrayVol,TrailMaking_Numeric,-0.027736123739377106,-0.08795276086856903,0.0028874913113322554
+cognition,Brain,TotalGrayVol,ReactionTime,-0.03446644995912204,-0.06908149642982937,0.042991798394855944
+cognition,Brain,TotalGrayVol,TrailMaking_Numeric,-0.03446644995912204,-0.16153524701419072,1.2212794740087973e-05
+cognition,Brain,TotalGrayVol,TrailMaking_Alphanumeric,-0.03446644995912204,-0.18041418132747727,1.1738341355388535e-06
+cognition,Kidney,TotalGrayVol,FluidIntelligence,-0.02048320171015923,0.16047902109055628,4.838469120251532e-06
+cognition,Kidney,TotalGrayVol,ReactionTime,-0.02048320171015923,-0.06908149642982937,0.042991798394855944
+cognition,Kidney,TotalGrayVol,PairedAssociateLearning,-0.02048320171015923,0.08609442742344409,0.02563241597200893
+cognition,Kidney,TotalGrayVol,TrailMaking_Numeric,-0.02048320171015923,-0.16153524701419072,1.2212794740087973e-05
+cognition,Kidney,TotalGrayVol,TrailMaking_Alphanumeric,-0.02048320171015923,-0.18041418132747727,1.1738341355388535e-06
+cognition,Pituitary,TotalGrayVol,NumericMemory,0.03893255119459338,0.18420769039807808,3.07701690090599e-05
+cognition,Pituitary,TotalGrayVol,TrailMaking_Alphanumeric,0.03893255119459338,-0.18041418132747727,1.1738341355388535e-06
+cognition,Adrenal,SupraTentorialVol,NumericMemory,-0.01877894667713898,0.16292475527240066,0.004103185488893977
+cognition,Kidney,SupraTentorialVol,FluidIntelligence,-0.019845671794843284,0.08993148158056291,0.04668417635310988
+cognition,Kidney,SupraTentorialVol,ReactionTime,-0.019845671794843284,-0.11538929568345814,0.008629991404493971
+cognition,Kidney,SupraTentorialVol,TrailMaking_Numeric,-0.019845671794843284,-0.20808132110649702,1.1755262728259887e-05
+cognition,Kidney,SupraTentorialVol,TrailMaking_Alphanumeric,-0.019845671794843284,-0.22654206755799847,1.966005769187616e-06
+cognition,Muscle,SupraTentorialVol,FluidIntelligence,-0.017115167267466206,0.08993148158056291,0.04668417635310988
+cognition,Muscle,SupraTentorialVol,ReactionTime,-0.017115167267466206,-0.11538929568345814,0.008629991404493971
+cognition,Muscle,SupraTentorialVol,NumericMemory,-0.017115167267466206,0.16292475527240066,0.004103185488893977
+cognition,Muscle,SupraTentorialVol,TrailMaking_Numeric,-0.017115167267466206,-0.20808132110649702,1.1755262728259887e-05
+cognition,Muscle,SupraTentorialVol,TrailMaking_Alphanumeric,-0.017115167267466206,-0.22654206755799847,1.966005769187616e-06
+cognition,Pituitary,SupraTentorialVol,NumericMemory,0.03718022556775473,0.16292475527240066,0.004103185488893977
+cognition,Pituitary,SupraTentorialVol,TrailMaking_Alphanumeric,0.03718022556775473,-0.22654206755799847,1.966005769187616e-06
+cognition,Adrenal,SupraTentorialVolNotVent,NumericMemory,-0.01801878532013568,0.154566631969957,0.0025981437820841295
+cognition,Kidney,SupraTentorialVolNotVent,FluidIntelligence,-0.02362182805214907,0.08777619112006826,0.03114062191277848
+cognition,Kidney,SupraTentorialVolNotVent,ReactionTime,-0.02362182805214907,-0.1309533378407155,0.0009327708707608432
+cognition,Kidney,SupraTentorialVolNotVent,TrailMaking_Numeric,-0.02362182805214907,-0.2059700499444755,1.5623685807253967e-06
+cognition,Kidney,SupraTentorialVolNotVent,TrailMaking_Alphanumeric,-0.02362182805214907,-0.20116543633041195,2.99144767528472e-06
+cognition,Muscle,SupraTentorialVolNotVent,FluidIntelligence,-0.0210167069079533,0.08777619112006826,0.03114062191277848
+cognition,Muscle,SupraTentorialVolNotVent,ReactionTime,-0.0210167069079533,-0.1309533378407155,0.0009327708707608432
+cognition,Muscle,SupraTentorialVolNotVent,NumericMemory,-0.0210167069079533,0.154566631969957,0.0025981437820841295
+cognition,Muscle,SupraTentorialVolNotVent,TrailMaking_Numeric,-0.0210167069079533,-0.2059700499444755,1.5623685807253967e-06
+cognition,Muscle,SupraTentorialVolNotVent,TrailMaking_Alphanumeric,-0.0210167069079533,-0.20116543633041195,2.99144767528472e-06
+cognition,Pituitary,SupraTentorialVolNotVent,NumericMemory,0.04062937337717554,0.154566631969957,0.0025981437820841295
+cognition,Pituitary,SupraTentorialVolNotVent,TrailMaking_Alphanumeric,0.04062937337717554,-0.20116543633041195,2.99144767528472e-06
+cognition,Pituitary,BrainSegVol-to-eTIV,TrailMaking_Alphanumeric,0.10949046759063225,-0.05067763325936325,0.005156218867417679
+cognition,Skin,BrainSegVol-to-eTIV,ReactionTime,0.05415393684497294,-0.04071977484650229,0.013857255116621246
+cognition,Skin,BrainSegVol-to-eTIV,TrailMaking_Numeric,0.05415393684497294,-0.05132898618902573,0.004395440663222053
+cognition,Skin,BrainSegVol-to-eTIV,TrailMaking_Alphanumeric,0.05415393684497294,-0.05067763325936325,0.005156218867417679
+cognition,Adrenal,lhSurfaceHoles,PairedAssociateLearning,0.04444823605942723,-0.03730728139698503,0.04768862823517587
+cognition,Kidney,lhSurfaceHoles,FluidIntelligence,0.042125781329254375,-0.0340583382177811,0.048418388375763455
+cognition,Kidney,lhSurfaceHoles,ReactionTime,0.042125781329254375,0.055463978839258396,0.0007884758595637194
+cognition,Kidney,lhSurfaceHoles,TowerRearranging,0.042125781329254375,-0.06160105698924461,0.004349443286165627
+cognition,Kidney,lhSurfaceHoles,PairedAssociateLearning,0.042125781329254375,-0.03730728139698503,0.04768862823517587
+cognition,Kidney,lhSurfaceHoles,TrailMaking_Numeric,0.042125781329254375,0.06499862837701208,0.000319866865598826
+cognition,Kidney,lhSurfaceHoles,TrailMaking_Alphanumeric,0.042125781329254375,0.055546448082294184,0.0022060431556150863
+cognition,Adrenal,rhSurfaceHoles,PairedAssociateLearning,0.04298497664721158,-0.06509603101596691,0.000463583644059221
+cognition,Kidney,rhSurfaceHoles,FluidIntelligence,0.04255248130433635,-0.05607806068503772,0.001003165306049205
+cognition,Kidney,rhSurfaceHoles,ReactionTime,0.04255248130433635,0.06992194124429733,1.8537468107052326e-05
+cognition,Kidney,rhSurfaceHoles,TowerRearranging,0.04255248130433635,-0.06364667479996401,0.0028142237970463675
+cognition,Kidney,rhSurfaceHoles,PairedAssociateLearning,0.04255248130433635,-0.06509603101596691,0.000463583644059221
+cognition,Kidney,rhSurfaceHoles,TrailMaking_Numeric,0.04255248130433635,0.06671987854964852,0.00018111163988688875
+cognition,Kidney,rhSurfaceHoles,TrailMaking_Alphanumeric,0.04255248130433635,0.059682311358219914,0.0008612766919759391
+cognition,Adrenal,SurfaceHoles,PairedAssociateLearning,0.0465136861929753,-0.05503329013142179,0.003511371345852891
+cognition,Kidney,SurfaceHoles,FluidIntelligence,0.04500932455343075,-0.048264850399784814,0.005166341193075286
+cognition,Kidney,SurfaceHoles,ReactionTime,0.04500932455343075,0.06727006113196764,4.709124911171229e-05
+cognition,Kidney,SurfaceHoles,TowerRearranging,0.04500932455343075,-0.06704948974283971,0.0018806702288395717
+cognition,Kidney,SurfaceHoles,PairedAssociateLearning,0.04500932455343075,-0.05503329013142179,0.003511371345852891
+cognition,Kidney,SurfaceHoles,TrailMaking_Numeric,0.04500932455343075,0.07121218090532848,8.102021039520788e-05
+cognition,Kidney,SurfaceHoles,TrailMaking_Alphanumeric,0.04500932455343075,0.062223132787014135,0.000608847328651264
+cognition,Adrenal,lhWhiteSurfArea,NumericMemory,-0.04358296841528416,0.16268505291211918,4.6580396279978476e-11
+cognition,Adrenal,lhWhiteSurfArea,PairedAssociateLearning,-0.04358296841528416,0.07445279598947709,0.0005788957751403219
+cognition,Kidney,lhWhiteSurfArea,FluidIntelligence,-0.04860808896313376,0.1854472772747983,1.1676938570804904e-20
+cognition,Kidney,lhWhiteSurfArea,TowerRearranging,-0.04860808896313376,0.08036607145881437,0.0012039589102314345
+cognition,Kidney,lhWhiteSurfArea,PairedAssociateLearning,-0.04860808896313376,0.07445279598947709,0.0005788957751403219
+cognition,Kidney,lhWhiteSurfArea,TrailMaking_Numeric,-0.04860808896313376,-0.09917989275266319,1.7370462735117973e-06
+cognition,Kidney,lhWhiteSurfArea,TrailMaking_Alphanumeric,-0.04860808896313376,-0.14434352620113666,4.194379518108126e-12
+cognition,Lung,lhWhiteSurfArea,FluidIntelligence,-0.045368265987747125,0.1854472772747983,1.1676938570804904e-20
+cognition,Lung,lhWhiteSurfArea,NumericMemory,-0.045368265987747125,0.16268505291211918,4.6580396279978476e-11
+cognition,Lung,lhWhiteSurfArea,PairedAssociateLearning,-0.045368265987747125,0.07445279598947709,0.0005788957751403219
+cognition,Lung,lhWhiteSurfArea,TrailMaking_Numeric,-0.045368265987747125,-0.09917989275266319,1.7370462735117973e-06
+cognition,Salivary,lhWhiteSurfArea,NumericMemory,-0.040503485097372754,0.16268505291211918,4.6580396279978476e-11
+cognition,Salivary,lhWhiteSurfArea,TowerRearranging,-0.040503485097372754,0.08036607145881437,0.0012039589102314345
+cognition,Salivary,lhWhiteSurfArea,PairedAssociateLearning,-0.040503485097372754,0.07445279598947709,0.0005788957751403219
+cognition,Salivary,lhWhiteSurfArea,TrailMaking_Numeric,-0.040503485097372754,-0.09917989275266319,1.7370462735117973e-06
+cognition,Salivary,lhWhiteSurfArea,TrailMaking_Alphanumeric,-0.040503485097372754,-0.14434352620113666,4.194379518108126e-12
+cognition,Skin,lhWhiteSurfArea,FluidIntelligence,-0.04082448779943669,0.1854472772747983,1.1676938570804904e-20
+cognition,Skin,lhWhiteSurfArea,NumericMemory,-0.04082448779943669,0.16268505291211918,4.6580396279978476e-11
+cognition,Skin,lhWhiteSurfArea,TrailMaking_Numeric,-0.04082448779943669,-0.09917989275266319,1.7370462735117973e-06
+cognition,Skin,lhWhiteSurfArea,TrailMaking_Alphanumeric,-0.04082448779943669,-0.14434352620113666,4.194379518108126e-12
+cognition,Thyroid,lhWhiteSurfArea,NumericMemory,-0.04109198462395809,0.16268505291211918,4.6580396279978476e-11
+cognition,Thyroid,lhWhiteSurfArea,TrailMaking_Alphanumeric,-0.04109198462395809,-0.14434352620113666,4.194379518108126e-12
+cognition,Adrenal,rhWhiteSurfArea,NumericMemory,-0.04049678073476478,0.16376435058433622,4.3838792058796445e-11
+cognition,Adrenal,rhWhiteSurfArea,PairedAssociateLearning,-0.04049678073476478,0.06804589571168164,0.0017604862571901168
+cognition,Kidney,rhWhiteSurfArea,FluidIntelligence,-0.047605931626969716,0.1892231814267004,2.6370168135855126e-21
+cognition,Kidney,rhWhiteSurfArea,TowerRearranging,-0.047605931626969716,0.07928908989131596,0.0014891274690118955
+cognition,Kidney,rhWhiteSurfArea,PairedAssociateLearning,-0.047605931626969716,0.06804589571168164,0.0017604862571901168
+cognition,Kidney,rhWhiteSurfArea,TrailMaking_Numeric,-0.047605931626969716,-0.10046433463998095,1.4468414503415121e-06
+cognition,Kidney,rhWhiteSurfArea,TrailMaking_Alphanumeric,-0.047605931626969716,-0.14538504264755203,3.852800649828766e-12
+cognition,Lung,rhWhiteSurfArea,FluidIntelligence,-0.04225063645869928,0.1892231814267004,2.6370168135855126e-21
+cognition,Lung,rhWhiteSurfArea,NumericMemory,-0.04225063645869928,0.16376435058433622,4.3838792058796445e-11
+cognition,Lung,rhWhiteSurfArea,PairedAssociateLearning,-0.04225063645869928,0.06804589571168164,0.0017604862571901168
+cognition,Lung,rhWhiteSurfArea,TrailMaking_Numeric,-0.04225063645869928,-0.10046433463998095,1.4468414503415121e-06
+cognition,Salivary,rhWhiteSurfArea,NumericMemory,-0.03908477927740425,0.16376435058433622,4.3838792058796445e-11
+cognition,Salivary,rhWhiteSurfArea,TowerRearranging,-0.03908477927740425,0.07928908989131596,0.0014891274690118955
+cognition,Salivary,rhWhiteSurfArea,PairedAssociateLearning,-0.03908477927740425,0.06804589571168164,0.0017604862571901168
+cognition,Salivary,rhWhiteSurfArea,TrailMaking_Numeric,-0.03908477927740425,-0.10046433463998095,1.4468414503415121e-06
+cognition,Salivary,rhWhiteSurfArea,TrailMaking_Alphanumeric,-0.03908477927740425,-0.14538504264755203,3.852800649828766e-12
+cognition,Skin,rhWhiteSurfArea,FluidIntelligence,-0.04264492052011473,0.1892231814267004,2.6370168135855126e-21
+cognition,Skin,rhWhiteSurfArea,NumericMemory,-0.04264492052011473,0.16376435058433622,4.3838792058796445e-11
+cognition,Skin,rhWhiteSurfArea,TrailMaking_Numeric,-0.04264492052011473,-0.10046433463998095,1.4468414503415121e-06
+cognition,Skin,rhWhiteSurfArea,TrailMaking_Alphanumeric,-0.04264492052011473,-0.14538504264755203,3.852800649828766e-12
+cognition,Thyroid,rhWhiteSurfArea,NumericMemory,-0.04111387208225008,0.16376435058433622,4.3838792058796445e-11
+cognition,Thyroid,rhWhiteSurfArea,TrailMaking_Alphanumeric,-0.04111387208225008,-0.14538504264755203,3.852800649828766e-12
+cognition,Adrenal,TotalSurfArea,NumericMemory,-0.04211178531840174,0.16387011276764782,3.9510157604226546e-11
+cognition,Adrenal,TotalSurfArea,PairedAssociateLearning,-0.04211178531840174,0.07152138839405986,0.0009890346739512964
+cognition,Kidney,TotalSurfArea,FluidIntelligence,-0.048198645156855985,0.18807284299777227,4.2520613292220975e-21
+cognition,Kidney,TotalSurfArea,TowerRearranging,-0.048198645156855985,0.08013822673014043,0.00129638481077674
+cognition,Kidney,TotalSurfArea,PairedAssociateLearning,-0.048198645156855985,0.07152138839405986,0.0009890346739512964
+cognition,Kidney,TotalSurfArea,TrailMaking_Numeric,-0.048198645156855985,-0.10020830643398819,1.4774969394350228e-06
+cognition,Kidney,TotalSurfArea,TrailMaking_Alphanumeric,-0.048198645156855985,-0.14541800510034317,3.4843047131493015e-12
+cognition,Lung,TotalSurfArea,FluidIntelligence,-0.04388475271208582,0.18807284299777227,4.2520613292220975e-21
+cognition,Lung,TotalSurfArea,NumericMemory,-0.04388475271208582,0.16387011276764782,3.9510157604226546e-11
+cognition,Lung,TotalSurfArea,PairedAssociateLearning,-0.04388475271208582,0.07152138839405986,0.0009890346739512964
+cognition,Lung,TotalSurfArea,TrailMaking_Numeric,-0.04388475271208582,-0.10020830643398819,1.4774969394350228e-06
+cognition,Salivary,TotalSurfArea,NumericMemory,-0.039867753589312216,0.16387011276764782,3.9510157604226546e-11
+cognition,Salivary,TotalSurfArea,TowerRearranging,-0.039867753589312216,0.08013822673014043,0.00129638481077674
+cognition,Salivary,TotalSurfArea,PairedAssociateLearning,-0.039867753589312216,0.07152138839405986,0.0009890346739512964
+cognition,Salivary,TotalSurfArea,TrailMaking_Numeric,-0.039867753589312216,-0.10020830643398819,1.4774969394350228e-06
+cognition,Salivary,TotalSurfArea,TrailMaking_Alphanumeric,-0.039867753589312216,-0.14541800510034317,3.4843047131493015e-12
+cognition,Skin,TotalSurfArea,FluidIntelligence,-0.041824139766802604,0.18807284299777227,4.2520613292220975e-21
+cognition,Skin,TotalSurfArea,NumericMemory,-0.041824139766802604,0.16387011276764782,3.9510157604226546e-11
+cognition,Skin,TotalSurfArea,TrailMaking_Numeric,-0.041824139766802604,-0.10020830643398819,1.4774969394350228e-06
+cognition,Skin,TotalSurfArea,TrailMaking_Alphanumeric,-0.041824139766802604,-0.14541800510034317,3.4843047131493015e-12
+cognition,Thyroid,TotalSurfArea,NumericMemory,-0.041184466407349116,0.16387011276764782,3.9510157604226546e-11
+cognition,Thyroid,TotalSurfArea,TrailMaking_Alphanumeric,-0.041184466407349116,-0.14541800510034317,3.4843047131493015e-12
+cognition,Adrenal,lhEulerNumber,PairedAssociateLearning,-0.04444823605942723,0.03730728139698503,0.04768862823516737
+cognition,Kidney,lhEulerNumber,FluidIntelligence,-0.042125781329254375,0.0340583382177811,0.048418388375769526
+cognition,Kidney,lhEulerNumber,ReactionTime,-0.042125781329254375,-0.055463978839258396,0.0007884758595645791
+cognition,Kidney,lhEulerNumber,TowerRearranging,-0.042125781329254375,0.06160105698924461,0.004349443286166541
+cognition,Kidney,lhEulerNumber,PairedAssociateLearning,-0.042125781329254375,0.03730728139698503,0.04768862823516737
+cognition,Kidney,lhEulerNumber,TrailMaking_Numeric,-0.042125781329254375,-0.06499862837701208,0.00031986686559883987
+cognition,Kidney,lhEulerNumber,TrailMaking_Alphanumeric,-0.042125781329254375,-0.055546448082294184,0.002206043155613624
+cognition,Adrenal,rhEulerNumber,PairedAssociateLearning,-0.04298497664721158,0.06509603101596691,0.0004635836440592831
+cognition,Kidney,rhEulerNumber,FluidIntelligence,-0.04255248130433635,0.05607806068503772,0.0010031653060492748
+cognition,Kidney,rhEulerNumber,ReactionTime,-0.04255248130433635,-0.06992194124429733,1.853746810701444e-05
+cognition,Kidney,rhEulerNumber,TowerRearranging,-0.04255248130433635,0.06364667479996401,0.0028142237970464196
+cognition,Kidney,rhEulerNumber,PairedAssociateLearning,-0.04255248130433635,0.06509603101596691,0.0004635836440592831
+cognition,Kidney,rhEulerNumber,TrailMaking_Numeric,-0.04255248130433635,-0.06671987854964852,0.0001811116398866351
+cognition,Kidney,rhEulerNumber,TrailMaking_Alphanumeric,-0.04255248130433635,-0.059682311358219914,0.000861276691975585
+cognition,Adrenal,TotalEulerNumber,PairedAssociateLearning,-0.0465136861929753,0.05503329013142179,0.003511371345855162
+cognition,Kidney,TotalEulerNumber,FluidIntelligence,-0.04500932455343075,0.048264850399784814,0.0051663411930727545
+cognition,Kidney,TotalEulerNumber,ReactionTime,-0.04500932455343075,-0.06727006113196764,4.709124911173387e-05
+cognition,Kidney,TotalEulerNumber,TowerRearranging,-0.04500932455343075,0.06704948974283971,0.0018806702288388728
+cognition,Kidney,TotalEulerNumber,PairedAssociateLearning,-0.04500932455343075,0.05503329013142179,0.003511371345855162
+cognition,Kidney,TotalEulerNumber,TrailMaking_Numeric,-0.04500932455343075,-0.07121218090532848,8.102021039529786e-05
+cognition,Kidney,TotalEulerNumber,TrailMaking_Alphanumeric,-0.04500932455343075,-0.062223132787014135,0.0006088473286518203
+cognition,Pituitary,Volume of Thalamus-Proper (left hemisphere),TrailMaking_Alphanumeric,0.04741958063907621,-0.07909820319714411,0.0014000499849594608
+cognition,Brain,Volume of Pallidum (left hemisphere),ReactionTime,0.03365810472516885,-0.05767801507162626,0.004547709073236472
+cognition,Kidney,Volume of Pallidum (left hemisphere),ReactionTime,-0.038817587821362735,-0.05767801507162626,0.004547709073236472
+cognition,Muscle,Volume of Pallidum (left hemisphere),ReactionTime,-0.04375056396578614,-0.05767801507162626,0.004547709073236472
+cognition,Brain,Volume of Brain-Stem (whole brain),ReactionTime,0.04910495013310857,-0.05715021882698444,0.010008689494722287
+cognition,Brain,Volume of Brain-Stem (whole brain),TrailMaking_Numeric,0.04910495013310857,-0.07523147509132272,0.001766251780524944
+cognition,Brain,Volume of Brain-Stem (whole brain),TrailMaking_Alphanumeric,0.04910495013310857,-0.05161900281213292,0.032554285050971236
+cognition,Pituitary,Volume of Brain-Stem (whole brain),TrailMaking_Alphanumeric,0.03284576588141845,-0.05161900281213292,0.032554285050971236
+cognition,Kidney,Volume of Hippocampus (left hemisphere),FluidIntelligence,-0.03433104211878542,0.0444671430228248,0.03358699981164679
+cognition,Kidney,Volume of Hippocampus (left hemisphere),TrailMaking_Numeric,-0.03433104211878542,-0.04563921524057004,0.03957478009014709
+cognition,Pituitary,Volume of Hippocampus (left hemisphere),NumericMemory,0.031342059115298346,0.08830533536296742,0.0007953579707022512
+cognition,Salivary,Volume of Hippocampus (left hemisphere),NumericMemory,-0.041221280521385704,0.08830533536296742,0.0007953579707022512
+cognition,Salivary,Volume of Hippocampus (left hemisphere),TrailMaking_Numeric,-0.041221280521385704,-0.04563921524057004,0.03957478009014709
+cognition,Pituitary,Volume of Amygdala (left hemisphere),NumericMemory,0.03978926383147113,0.0600742974441084,0.020764166798307053
+cognition,Pituitary,Volume of Thalamus-Proper (right hemisphere),TrailMaking_Alphanumeric,0.051039803956552734,-0.06531684927335904,0.011373449056793765
+cognition,Salivary,Volume of Hippocampus (right hemisphere),ReactionTime,-0.049138387989290974,-0.04237314835271734,0.03641806673780376
+cognition,Brain,Volume of Accumbens-area (right hemisphere),TrailMaking_Numeric,-0.04063457301322483,-0.06624772256322388,0.0013707975647703793
+cognition,Brain,Volume of Accumbens-area (right hemisphere),TrailMaking_Alphanumeric,-0.04063457301322483,-0.053955889508087,0.009563136582060894
+cognition,Lung,Volume of entorhinal (left hemisphere),FluidIntelligence,-0.050453104427935054,0.03677160718815303,0.03259709322192354
+cognition,Pituitary,Volume of fusiform (left hemisphere),NumericMemory,0.03590435231791167,0.05694564867794234,0.027118031469043916
+cognition,Pituitary,Volume of inferiorparietal (right hemisphere),NumericMemory,0.03554072711245695,0.07416978145060225,0.0047426446438771355
+cognition,Brain,Volume of inferiortemporal (left hemisphere),ReactionTime,-0.04636673588688843,0.04052550102117025,0.04983182498733268
+cognition,Kidney,Volume of insula (left hemisphere),FluidIntelligence,-0.036385119287565944,0.04642230831973394,0.032785304610669315
+cognition,Brain,Volume of insula (right hemisphere),TrailMaking_Numeric,-0.057249524178353134,-0.04590843444793629,0.04546063896948836
+cognition,Kidney,Volume of insula (right hemisphere),FluidIntelligence,-0.03614874147222738,0.043470042689819216,0.0460736611742968
+cognition,Kidney,Volume of insula (right hemisphere),TrailMaking_Numeric,-0.03614874147222738,-0.04590843444793629,0.04546063896948836
+cognition,Pituitary,Volume of insula (right hemisphere),NumericMemory,0.04026964861854509,0.06150907603187207,0.024438468638487455
+cognition,Pituitary,Volume of isthmuscingulate (left hemisphere),NumericMemory,0.04431927169407769,0.05842273339341431,0.021758293841696582
+cognition,Brain,Volume of lateraloccipital (left hemisphere),ReactionTime,-0.03007994328174726,-0.04033326312861638,0.041068395812729315
+cognition,Brain,Volume of lateraloccipital (left hemisphere),TrailMaking_Alphanumeric,-0.03007994328174726,-0.045798325126402084,0.03432823907165865
+cognition,Brain,Volume of lateraloccipital (right hemisphere),TrailMaking_Alphanumeric,-0.03441976151245019,-0.05242656586778127,0.016681056927686014
+cognition,Brain,Volume of lateralorbitofrontal (left hemisphere),TrailMaking_Numeric,-0.036706910062445156,-0.08272303876281516,0.000590131621310241
+cognition,Brain,Volume of lateralorbitofrontal (left hemisphere),TrailMaking_Alphanumeric,-0.036706910062445156,-0.0756927217484615,0.0017196741005637566
+cognition,Kidney,Volume of lateralorbitofrontal (left hemisphere),FluidIntelligence,-0.036411429102969274,0.0574467376185043,0.011168168131658189
+cognition,Kidney,Volume of lateralorbitofrontal (left hemisphere),TrailMaking_Numeric,-0.036411429102969274,-0.08272303876281516,0.000590131621310241
+cognition,Kidney,Volume of lateralorbitofrontal (left hemisphere),TrailMaking_Alphanumeric,-0.036411429102969274,-0.0756927217484615,0.0017196741005637566
+cognition,Brain,Volume of lateralorbitofrontal (right hemisphere),TrailMaking_Numeric,-0.035479211423616555,-0.08047896596737913,0.0007266324592052766
+cognition,Brain,Volume of lateralorbitofrontal (right hemisphere),TrailMaking_Alphanumeric,-0.035479211423616555,-0.07691331928426837,0.0013120842123826378
+cognition,Brain,Volume of medialorbitofrontal (left hemisphere),TrailMaking_Numeric,-0.04645073856341553,-0.056173802411983845,0.009179916865426586
+cognition,Brain,Volume of medialorbitofrontal (left hemisphere),TrailMaking_Alphanumeric,-0.04645073856341553,-0.05091260107814454,0.018449957536673313
+cognition,Kidney,Volume of medialorbitofrontal (left hemisphere),TrailMaking_Numeric,-0.03421741659181727,-0.056173802411983845,0.009179916865426586
+cognition,Kidney,Volume of medialorbitofrontal (left hemisphere),TrailMaking_Alphanumeric,-0.03421741659181727,-0.05091260107814454,0.018449957536673313
+cognition,Pituitary,Volume of medialorbitofrontal (left hemisphere),TrailMaking_Alphanumeric,0.041340915980434906,-0.05091260107814454,0.018449957536673313
+cognition,Brain,Volume of medialorbitofrontal (right hemisphere),TrailMaking_Alphanumeric,-0.05439150845927185,-0.05128643454464315,0.01486780198890006
+cognition,Pituitary,Volume of medialorbitofrontal (right hemisphere),TrailMaking_Alphanumeric,0.03131717172563499,-0.05128643454464315,0.01486780198890006
+cognition,Pituitary,Volume of middletemporal (left hemisphere),NumericMemory,0.03868911075014964,0.09117984369806469,0.0012926601793282787
+cognition,Brain,Volume of parahippocampal (right hemisphere),ReactionTime,-0.03392898454055539,-0.03750054507463244,0.02509398717313628
+cognition,Brain,Volume of parstriangularis (right hemisphere),ReactionTime,-0.042088647215874506,-0.051579187312062263,0.003754727256011939
+cognition,Brain,Volume of parstriangularis (right hemisphere),TrailMaking_Alphanumeric,-0.042088647215874506,-0.045157627861162376,0.019292732990581565
+cognition,Brain,Volume of posteriorcingulate (left hemisphere),TrailMaking_Alphanumeric,-0.03542014971417798,-0.040369548396058275,0.04683217803605808
+cognition,Pituitary,Volume of posteriorcingulate (left hemisphere),NumericMemory,0.0354568033915382,0.05135573502549551,0.03362396186309188
+cognition,Pituitary,Volume of posteriorcingulate (left hemisphere),TrailMaking_Alphanumeric,0.0354568033915382,-0.040369548396058275,0.04683217803605808
+cognition,Brain,Volume of posteriorcingulate (right hemisphere),TrailMaking_Numeric,-0.04352799281502748,-0.05590690717588754,0.005500012674688514
+cognition,Brain,Volume of posteriorcingulate (right hemisphere),TrailMaking_Alphanumeric,-0.04352799281502748,-0.04651384954591962,0.021443860771735015
+cognition,Kidney,Volume of precentral (left hemisphere),PairedAssociateLearning,-0.033041838838530777,0.05131325039951705,0.02811264756118491
+cognition,Pituitary,Volume of precentral (right hemisphere),NumericMemory,0.03933922881140925,0.06800115382783556,0.009524348259380075
+cognition,Brain,Volume of precuneus (left hemisphere),ReactionTime,-0.029345549208736065,-0.046882729074687005,0.027131952705922432
+cognition,Brain,Volume of precuneus (left hemisphere),TrailMaking_Numeric,-0.029345549208736065,-0.0698053721485098,0.002606245884925281
+cognition,Brain,Volume of precuneus (left hemisphere),TrailMaking_Alphanumeric,-0.029345549208736065,-0.07140734769769863,0.002077680971629036
+cognition,Brain,Volume of precuneus (right hemisphere),TrailMaking_Alphanumeric,-0.025381817811912746,-0.06715016902956694,0.005534233024789959
+cognition,Skin,Volume of precuneus (right hemisphere),FluidIntelligence,0.03719050098161365,0.04495668260913885,0.048372799496593885
+cognition,Skin,Volume of precuneus (right hemisphere),TrailMaking_Alphanumeric,0.03719050098161365,-0.06715016902956694,0.005534233024789959
+cognition,Brain,Volume of rostralanteriorcingulate (right hemisphere),ReactionTime,-0.031237400845748095,0.0354378830196022,0.047853090272492495
+cognition,Brain,Volume of rostralmiddlefrontal (right hemisphere),TrailMaking_Alphanumeric,-0.04163355512664661,-0.05569160933012185,0.015804769423031696
+cognition,Brain,Volume of superiorfrontal (left hemisphere),TrailMaking_Numeric,-0.04132760281159892,-0.051616993301968145,0.04168268844356261
+cognition,Brain,Volume of superiorfrontal (left hemisphere),TrailMaking_Alphanumeric,-0.04132760281159892,-0.051221012333038475,0.044222068963601924
+cognition,Brain,Volume of superiorfrontal (right hemisphere),TrailMaking_Numeric,-0.03332766481677903,-0.06810491832022156,0.008449943029987547
+cognition,Brain,Volume of superiorfrontal (right hemisphere),TrailMaking_Alphanumeric,-0.03332766481677903,-0.07392345117944704,0.0043983572509749096
+cognition,Pituitary,Volume of superiorfrontal (right hemisphere),NumericMemory,0.029930801531286313,0.062093207637854954,0.04218653453083386
+cognition,Pituitary,Volume of superiorfrontal (right hemisphere),TrailMaking_Alphanumeric,0.029930801531286313,-0.07392345117944704,0.0043983572509749096
+cognition,Brain,Volume of superiorparietal (left hemisphere),TrailMaking_Numeric,-0.031486657794744244,-0.04742564852695003,0.021333679914384035
+cognition,Brain,Volume of superiorparietal (left hemisphere),TrailMaking_Alphanumeric,-0.031486657794744244,-0.06540913686688142,0.0015267533049794849
+cognition,Pituitary,Volume of superiorparietal (left hemisphere),TrailMaking_Alphanumeric,0.0348605078937859,-0.06540913686688142,0.0015267533049794849
+cognition,Kidney,Volume of superiortemporal (left hemisphere),FluidIntelligence,-0.03117955571852155,0.068939711511097,0.0015327764852931182
+cognition,Kidney,Volume of superiortemporal (right hemisphere),FluidIntelligence,-0.0318563260547783,0.0872817456771934,7.657298155725308e-05
+cognition,Pituitary,Volume of superiortemporal (right hemisphere),NumericMemory,0.03957906884152061,0.09808513896288222,0.00037612822966154807
+cognition,Brain,Volume of supramarginal (left hemisphere),TrailMaking_Numeric,-0.03412204598129824,-0.06559738775291561,0.002579131732344837
+cognition,Brain,Volume of supramarginal (left hemisphere),TrailMaking_Alphanumeric,-0.03412204598129824,-0.0458041656826993,0.03592271130631314
+cognition,Brain,Volume of supramarginal (right hemisphere),TrailMaking_Numeric,-0.049136553250800075,-0.045463908700495125,0.037246897272905186
+cognition,Brain,Volume of supramarginal (right hemisphere),TrailMaking_Alphanumeric,-0.049136553250800075,-0.04337274393198986,0.047947931590733885
+cognition,Brain,Volume of transversetemporal (left hemisphere),TrailMaking_Alphanumeric,-0.04868872903155136,-0.04309734983151555,0.02203680973473629
+cognition,Muscle,Volume of transversetemporal (right hemisphere),FluidIntelligence,-0.04084037522019915,0.046472673277063045,0.009354144958864608
+cognition,Muscle,Volume of transversetemporal (right hemisphere),NumericMemory,-0.04084037522019915,0.06159944137005329,0.006312562472701323
+cognition,Muscle,Volume of transversetemporal (right hemisphere),PairedAssociateLearning,-0.04084037522019915,0.03876725632302659,0.04864627684112441
+disease,Adrenal,BrainSegVol,type 2 diabetes,-0.020479499751036925,-0.8082686249063276,0.0010335108725858405
+disease,Adrenal,BrainSegVol,hypertension,-0.020479499751036925,-0.3967873500774555,0.00040584501216030456
+disease,Kidney,BrainSegVol,type 2 diabetes,-0.01979784785851285,-0.8082686249063276,0.0010335108725858405
+disease,Kidney,BrainSegVol,hypertension,-0.01979784785851285,-0.3967873500774555,0.00040584501216030456
+disease,Muscle,BrainSegVol,type 2 diabetes,-0.01742463083389773,-0.8082686249063276,0.0010335108725858405
+disease,Muscle,BrainSegVol,hypertension,-0.01742463083389773,-0.3967873500774555,0.00040584501216030456
+disease,Adrenal,BrainSegVolNotVent,type 2 diabetes,-0.01988383554902537,-0.9476627642472515,1.5244368783088048e-05
+disease,Adrenal,BrainSegVolNotVent,hypertension,-0.01988383554902537,-0.415736285339523,3.9470496419987345e-05
+disease,Kidney,BrainSegVolNotVent,type 2 diabetes,-0.023541852767272282,-0.9476627642472515,1.5244368783088048e-05
+disease,Kidney,BrainSegVolNotVent,hypertension,-0.023541852767272282,-0.415736285339523,3.9470496419987345e-05
+disease,Muscle,BrainSegVolNotVent,type 2 diabetes,-0.02129549308813337,-0.9476627642472515,1.5244368783088048e-05
+disease,Muscle,BrainSegVolNotVent,hypertension,-0.02129549308813337,-0.415736285339523,3.9470496419987345e-05
+disease,Salivary,BrainSegVolNotVent,type 2 diabetes,-0.01909052626472597,-0.9476627642472515,1.5244368783088048e-05
+disease,Salivary,BrainSegVolNotVent,hypertension,-0.01909052626472597,-0.415736285339523,3.9470496419987345e-05
+disease,Brain,VentricleChoroidVol,type 2 diabetes,0.04817510250006794,0.35965855649145256,2.957075785078789e-05
+disease,Brain,VentricleChoroidVol,hypertension,0.04817510250006794,0.12459711959026604,0.006852499890692996
+disease,Intestine,VentricleChoroidVol,type 2 diabetes,0.04704788295676617,0.35965855649145256,2.957075785078789e-05
+disease,Intestine,VentricleChoroidVol,arthritis,0.04704788295676617,-0.20075620823755805,0.009804787895239317
+disease,Intestine,VentricleChoroidVol,hypertension,0.04704788295676617,0.12459711959026604,0.006852499890692996
+disease,Brain,lhCortexVol,coronary heart disease,-0.044140703875775504,-0.42034987518314937,0.01827266373694814
+disease,Brain,lhCortexVol,type 2 diabetes,-0.044140703875775504,-0.6114175604719002,0.00019644630339887644
+disease,Brain,lhCortexVol,hypertension,-0.044140703875775504,-0.2690404441073376,0.0002923647486638021
+disease,Brain,lhCortexVol,angina pectoris,-0.044140703875775504,-0.42034987518314937,0.01827266373694814
+disease,Brain,rhCortexVol,type 2 diabetes,-0.04343870197482813,-0.3694375275897738,0.02402458595648842
+disease,Brain,rhCortexVol,hypertension,-0.04343870197482813,-0.21984647744057959,0.0028037766197120005
+disease,Brain,CortexVol,type 2 diabetes,-0.044556532187046756,-0.558736504692484,0.0013908382555354642
+disease,Brain,CortexVol,hypertension,-0.044556532187046756,-0.27568789866501725,0.00041289663660206967
+disease,Adrenal,lhCerebralWhiteMatterVol,type 2 diabetes,-0.02251701581708334,-0.471529569390279,0.008038206629387925
+disease,Adrenal,lhCerebralWhiteMatterVol,hypertension,-0.02251701581708334,-0.24015489469894785,0.0024582675533989583
+disease,Brain,lhCerebralWhiteMatterVol,type 2 diabetes,0.039143625467346184,-0.471529569390279,0.008038206629387925
+disease,Brain,lhCerebralWhiteMatterVol,hypertension,0.039143625467346184,-0.24015489469894785,0.0024582675533989583
+disease,Kidney,lhCerebralWhiteMatterVol,type 2 diabetes,-0.02407725148055611,-0.471529569390279,0.008038206629387925
+disease,Kidney,lhCerebralWhiteMatterVol,hypertension,-0.02407725148055611,-0.24015489469894785,0.0024582675533989583
+disease,Muscle,lhCerebralWhiteMatterVol,type 2 diabetes,-0.02688981585089774,-0.471529569390279,0.008038206629387925
+disease,Muscle,lhCerebralWhiteMatterVol,hypertension,-0.02688981585089774,-0.24015489469894785,0.0024582675533989583
+disease,Brain,rhCerebralWhiteMatterVol,type 2 diabetes,0.03928180083267616,-0.48244912403030166,0.006985838185745733
+disease,Brain,rhCerebralWhiteMatterVol,hypertension,0.03928180083267616,-0.21414350267676388,0.007190469739095259
+disease,Kidney,rhCerebralWhiteMatterVol,type 2 diabetes,-0.024956535800086856,-0.48244912403030166,0.006985838185745733
+disease,Kidney,rhCerebralWhiteMatterVol,hypertension,-0.024956535800086856,-0.21414350267676388,0.007190469739095259
+disease,Muscle,rhCerebralWhiteMatterVol,type 2 diabetes,-0.025370371135776896,-0.48244912403030166,0.006985838185745733
+disease,Muscle,rhCerebralWhiteMatterVol,hypertension,-0.025370371135776896,-0.21414350267676388,0.007190469739095259
+disease,Adrenal,CerebralWhiteMatterVol,type 2 diabetes,-0.021612908443348164,-0.48233540832279737,0.007129477210089992
+disease,Adrenal,CerebralWhiteMatterVol,hypertension,-0.021612908443348164,-0.22970000618749797,0.004028062322585633
+disease,Brain,CerebralWhiteMatterVol,type 2 diabetes,0.03927305026002965,-0.48233540832279737,0.007129477210089992
+disease,Brain,CerebralWhiteMatterVol,hypertension,0.03927305026002965,-0.22970000618749797,0.004028062322585633
+disease,Kidney,CerebralWhiteMatterVol,type 2 diabetes,-0.024556001640198447,-0.48233540832279737,0.007129477210089992
+disease,Kidney,CerebralWhiteMatterVol,hypertension,-0.024556001640198447,-0.22970000618749797,0.004028062322585633
+disease,Muscle,CerebralWhiteMatterVol,type 2 diabetes,-0.026167488205860307,-0.48233540832279737,0.007129477210089992
+disease,Muscle,CerebralWhiteMatterVol,hypertension,-0.026167488205860307,-0.22970000618749797,0.004028062322585633
+disease,Kidney,SubCortGrayVol,type 2 diabetes,-0.031116059346144836,-0.3503131905213085,0.023818497410829004
+disease,Muscle,SubCortGrayVol,type 2 diabetes,-0.02829168746972782,-0.3503131905213085,0.023818497410829004
+disease,Salivary,SubCortGrayVol,type 2 diabetes,-0.027736123739377106,-0.3503131905213085,0.023818497410829004
+disease,Brain,TotalGrayVol,type 2 diabetes,-0.03446644995912204,-0.7457645756530633,0.00011454143217975636
+disease,Brain,TotalGrayVol,hypertension,-0.03446644995912204,-0.31827359331040705,0.00020065520022667546
+disease,Kidney,TotalGrayVol,type 2 diabetes,-0.02048320171015923,-0.7457645756530633,0.00011454143217975636
+disease,Kidney,TotalGrayVol,hypertension,-0.02048320171015923,-0.31827359331040705,0.00020065520022667546
+disease,Adrenal,SupraTentorialVol,type 2 diabetes,-0.01877894667713898,-0.7254303230350349,0.0038842917717233647
+disease,Adrenal,SupraTentorialVol,hypertension,-0.01877894667713898,-0.38582996809058023,0.0005473258868654384
+disease,Kidney,SupraTentorialVol,type 2 diabetes,-0.019845671794843284,-0.7254303230350349,0.0038842917717233647
+disease,Kidney,SupraTentorialVol,hypertension,-0.019845671794843284,-0.38582996809058023,0.0005473258868654384
+disease,Muscle,SupraTentorialVol,type 2 diabetes,-0.017115167267466206,-0.7254303230350349,0.0038842917717233647
+disease,Muscle,SupraTentorialVol,hypertension,-0.017115167267466206,-0.38582996809058023,0.0005473258868654384
+disease,Adrenal,SupraTentorialVolNotVent,type 2 diabetes,-0.01801878532013568,-0.8837860627812498,7.449672222741633e-05
+disease,Adrenal,SupraTentorialVolNotVent,hypertension,-0.01801878532013568,-0.4030016610789665,5.744423615871829e-05
+disease,Kidney,SupraTentorialVolNotVent,type 2 diabetes,-0.02362182805214907,-0.8837860627812498,7.449672222741633e-05
+disease,Kidney,SupraTentorialVolNotVent,hypertension,-0.02362182805214907,-0.4030016610789665,5.744423615871829e-05
+disease,Muscle,SupraTentorialVolNotVent,type 2 diabetes,-0.0210167069079533,-0.8837860627812498,7.449672222741633e-05
+disease,Muscle,SupraTentorialVolNotVent,hypertension,-0.0210167069079533,-0.4030016610789665,5.744423615871829e-05
+disease,Adrenal,BrainSegVol-to-eTIV,type 2 diabetes,-0.048926391216220284,-0.26776944879037684,0.008144491528869258
+disease,Adrenal,BrainSegVol-to-eTIV,hypertension,-0.048926391216220284,-0.10249947871132341,0.021470023278215254
+disease,Skin,BrainSegVol-to-eTIV,type 2 diabetes,0.05415393684497294,-0.26776944879037684,0.008144491528869258
+disease,Skin,BrainSegVol-to-eTIV,hypertension,0.05415393684497294,-0.10249947871132341,0.021470023278215254
+disease,Skin,BrainSegVol-to-eTIV,asthma,0.05415393684497294,0.09829739309311075,0.037732719739227094
+disease,Adrenal,lhSurfaceHoles,type 2 diabetes,0.04444823605942723,0.15556189651905286,0.03614037951858197
+disease,Adrenal,lhSurfaceHoles,hypertension,0.04444823605942723,0.16733049534104125,1.2772827508850103e-05
+disease,Kidney,lhSurfaceHoles,type 2 diabetes,0.042125781329254375,0.15556189651905286,0.03614037951858197
+disease,Kidney,lhSurfaceHoles,hypertension,0.042125781329254375,0.16733049534104125,1.2772827508850103e-05
+disease,Adrenal,rhSurfaceHoles,hypertension,0.04298497664721158,0.17017929249574343,6.505500590641643e-06
+disease,Kidney,rhSurfaceHoles,hypertension,0.04255248130433635,0.17017929249574343,6.505500590641643e-06
+disease,Adrenal,SurfaceHoles,hypertension,0.0465136861929753,0.1802373366883147,2.402429908335053e-06
+disease,Kidney,SurfaceHoles,hypertension,0.04500932455343075,0.1802373366883147,2.402429908335053e-06
+disease,Adrenal,lhWhiteSurfArea,type 2 diabetes,-0.04358296841528416,-0.301863156326589,0.005245948346213419
+disease,Adrenal,lhWhiteSurfArea,hypertension,-0.04358296841528416,-0.20611417663986095,2.1463664889299845e-05
+disease,Kidney,lhWhiteSurfArea,type 2 diabetes,-0.04860808896313376,-0.301863156326589,0.005245948346213419
+disease,Kidney,lhWhiteSurfArea,hypertension,-0.04860808896313376,-0.20611417663986095,2.1463664889299845e-05
+disease,Kidney,lhWhiteSurfArea,venous thrombosis,-0.04860808896313376,-0.3008660916123214,0.04294876880420215
+disease,Lung,lhWhiteSurfArea,type 2 diabetes,-0.045368265987747125,-0.301863156326589,0.005245948346213419
+disease,Lung,lhWhiteSurfArea,hypertension,-0.045368265987747125,-0.20611417663986095,2.1463664889299845e-05
+disease,Lung,lhWhiteSurfArea,venous thrombosis,-0.045368265987747125,-0.3008660916123214,0.04294876880420215
+disease,Salivary,lhWhiteSurfArea,type 2 diabetes,-0.040503485097372754,-0.301863156326589,0.005245948346213419
+disease,Salivary,lhWhiteSurfArea,hypertension,-0.040503485097372754,-0.20611417663986095,2.1463664889299845e-05
+disease,Skin,lhWhiteSurfArea,type 2 diabetes,-0.04082448779943669,-0.301863156326589,0.005245948346213419
+disease,Skin,lhWhiteSurfArea,hypertension,-0.04082448779943669,-0.20611417663986095,2.1463664889299845e-05
+disease,Thyroid,lhWhiteSurfArea,type 2 diabetes,-0.04109198462395809,-0.301863156326589,0.005245948346213419
+disease,Thyroid,lhWhiteSurfArea,hypertension,-0.04109198462395809,-0.20611417663986095,2.1463664889299845e-05
+disease,Adrenal,rhWhiteSurfArea,type 2 diabetes,-0.04049678073476478,-0.2878069453534805,0.007876960033753995
+disease,Adrenal,rhWhiteSurfArea,hypertension,-0.04049678073476478,-0.18908623483896536,9.855495823144172e-05
+disease,Kidney,rhWhiteSurfArea,type 2 diabetes,-0.047605931626969716,-0.2878069453534805,0.007876960033753995
+disease,Kidney,rhWhiteSurfArea,hypertension,-0.047605931626969716,-0.18908623483896536,9.855495823144172e-05
+disease,Lung,rhWhiteSurfArea,type 2 diabetes,-0.04225063645869928,-0.2878069453534805,0.007876960033753995
+disease,Lung,rhWhiteSurfArea,hypertension,-0.04225063645869928,-0.18908623483896536,9.855495823144172e-05
+disease,Salivary,rhWhiteSurfArea,type 2 diabetes,-0.03908477927740425,-0.2878069453534805,0.007876960033753995
+disease,Salivary,rhWhiteSurfArea,hypertension,-0.03908477927740425,-0.18908623483896536,9.855495823144172e-05
+disease,Skin,rhWhiteSurfArea,type 2 diabetes,-0.04264492052011473,-0.2878069453534805,0.007876960033753995
+disease,Skin,rhWhiteSurfArea,hypertension,-0.04264492052011473,-0.18908623483896536,9.855495823144172e-05
+disease,Thyroid,rhWhiteSurfArea,type 2 diabetes,-0.04111387208225008,-0.2878069453534805,0.007876960033753995
+disease,Thyroid,rhWhiteSurfArea,hypertension,-0.04111387208225008,-0.18908623483896536,9.855495823144172e-05
+disease,Brain,lhMeanThickness,type 2 diabetes,-0.05723149213202828,-0.23292077710538014,0.009728369520320293
+disease,Thyroid,lhMeanThickness,type 2 diabetes,0.052282958890629866,-0.23292077710538014,0.009728369520320293
+disease,Brain,GlobalMeanThickness,type 2 diabetes,-0.062313536342062645,-0.19000974499557916,0.03931654346657795
+disease,Brain,GlobalMeanThickness,hypertension,-0.062313536342062645,-0.08186666192244026,0.04949618854218819
+disease,Adrenal,TotalSurfArea,type 2 diabetes,-0.04211178531840174,-0.29593940638753424,0.006292108077419385
+disease,Adrenal,TotalSurfArea,hypertension,-0.04211178531840174,-0.19834274029787952,4.451552777667944e-05
+disease,Kidney,TotalSurfArea,type 2 diabetes,-0.048198645156855985,-0.29593940638753424,0.006292108077419385
+disease,Kidney,TotalSurfArea,hypertension,-0.048198645156855985,-0.19834274029787952,4.451552777667944e-05
+disease,Lung,TotalSurfArea,type 2 diabetes,-0.04388475271208582,-0.29593940638753424,0.006292108077419385
+disease,Lung,TotalSurfArea,hypertension,-0.04388475271208582,-0.19834274029787952,4.451552777667944e-05
+disease,Salivary,TotalSurfArea,type 2 diabetes,-0.039867753589312216,-0.29593940638753424,0.006292108077419385
+disease,Salivary,TotalSurfArea,hypertension,-0.039867753589312216,-0.19834274029787952,4.451552777667944e-05
+disease,Skin,TotalSurfArea,type 2 diabetes,-0.041824139766802604,-0.29593940638753424,0.006292108077419385
+disease,Skin,TotalSurfArea,hypertension,-0.041824139766802604,-0.19834274029787952,4.451552777667944e-05
+disease,Thyroid,TotalSurfArea,type 2 diabetes,-0.041184466407349116,-0.29593940638753424,0.006292108077419385
+disease,Thyroid,TotalSurfArea,hypertension,-0.041184466407349116,-0.19834274029787952,4.451552777667944e-05
+disease,Adrenal,lhEulerNumber,type 2 diabetes,-0.04444823605942723,-0.15556189651905286,0.03614037951858197
+disease,Adrenal,lhEulerNumber,hypertension,-0.04444823605942723,-0.16733049534104125,1.2772827508850103e-05
+disease,Kidney,lhEulerNumber,type 2 diabetes,-0.042125781329254375,-0.15556189651905286,0.03614037951858197
+disease,Kidney,lhEulerNumber,hypertension,-0.042125781329254375,-0.16733049534104125,1.2772827508850103e-05
+disease,Adrenal,rhEulerNumber,hypertension,-0.04298497664721158,-0.17017929249574343,6.505500590641643e-06
+disease,Kidney,rhEulerNumber,hypertension,-0.04255248130433635,-0.17017929249574343,6.505500590641643e-06
+disease,Adrenal,TotalEulerNumber,hypertension,-0.0465136861929753,-0.1802373366883147,2.402429908335053e-06
+disease,Kidney,TotalEulerNumber,hypertension,-0.04500932455343075,-0.1802373366883147,2.402429908335053e-06
+disease,Brain,Volume of Caudate (left hemisphere),hypertension,0.0365788294001373,0.11886375921056845,0.008525114078137924
+disease,Brain,Volume of Caudate (left hemisphere),pulmonary heart diseases,0.0365788294001373,-0.5120076161013084,0.03247846312354507
+disease,Brain,Volume of Caudate (left hemisphere),venous thrombosis,0.0365788294001373,-0.34811869889045666,0.020560127093358686
+disease,Kidney,Volume of Caudate (left hemisphere),hypertension,-0.04155382934527656,0.11886375921056845,0.008525114078137924
+disease,Kidney,Volume of Caudate (left hemisphere),venous thrombosis,-0.04155382934527656,-0.34811869889045666,0.020560127093358686
+disease,Brain,Volume of Pallidum (left hemisphere),venous thrombosis,0.03365810472516885,-0.3330051206998122,0.0361064308899654
+disease,Kidney,Volume of Pallidum (left hemisphere),venous thrombosis,-0.038817587821362735,-0.3330051206998122,0.0361064308899654
+disease,Brain,Volume of Brain-Stem (whole brain),type 2 diabetes,0.04910495013310857,-0.4590451501155831,0.00037718452815073335
+disease,Immune,Volume of Brain-Stem (whole brain),type 2 diabetes,-0.04565130745871683,-0.4590451501155831,0.00037718452815073335
+disease,Brain,Volume of Caudate (right hemisphere),hypertension,0.03673370360502115,0.13744444287051139,0.002967972500000841
+disease,Kidney,Volume of Caudate (right hemisphere),hypertension,-0.037400724771908964,0.13744444287051139,0.002967972500000841
+disease,Brain,Volume of Pallidum (right hemisphere),venous thrombosis,0.03713562008005469,-0.4256297168130571,0.008943605520114783
+disease,Brain,Volume of Accumbens-area (right hemisphere),coronary heart disease,-0.04063457301322483,-0.2611332835368778,0.03383092423712215
+disease,Brain,Volume of Accumbens-area (right hemisphere),angina pectoris,-0.04063457301322483,-0.2611332835368778,0.03383092423712215
+disease,Brain,Volume of caudalmiddlefrontal (left hemisphere),hypertension,-0.03499446544697207,-0.0981304017882081,0.04437070058402433
+disease,Lung,Volume of entorhinal (left hemisphere),venous thrombosis,-0.050453104427935054,0.29531967730373193,0.007987824988041087
+disease,Brain,Volume of fusiform (right hemisphere),hypertension,-0.03052958090295586,-0.10237448984503787,0.04683151520688995
+disease,Brain,Volume of inferiortemporal (left hemisphere),type 2 diabetes,-0.04636673588688843,-0.2551122368631776,0.030353844388582563
+disease,Brain,Volume of inferiortemporal (right hemisphere),depressive episode,-0.03246744478726756,-0.20063804148284947,0.029379526769004
+disease,Brain,Volume of lateraloccipital (left hemisphere),coronary heart disease,-0.03007994328174726,-0.283794386680026,0.02454876117277231
+disease,Brain,Volume of lateraloccipital (left hemisphere),angina pectoris,-0.03007994328174726,-0.283794386680026,0.02454876117277231
+disease,Brain,Volume of lateralorbitofrontal (left hemisphere),type 2 diabetes,-0.036706910062445156,-0.30415467323658124,0.014700880142217114
+disease,Brain,Volume of lateralorbitofrontal (left hemisphere),hypertension,-0.036706910062445156,-0.16557579580419554,0.0029189353925128695
+disease,Kidney,Volume of lateralorbitofrontal (left hemisphere),type 2 diabetes,-0.036411429102969274,-0.30415467323658124,0.014700880142217114
+disease,Kidney,Volume of lateralorbitofrontal (left hemisphere),hypertension,-0.036411429102969274,-0.16557579580419554,0.0029189353925128695
+disease,Brain,Volume of lateralorbitofrontal (right hemisphere),hypertension,-0.035479211423616555,-0.12027026448730158,0.029443194830737988
+disease,Brain,Volume of medialorbitofrontal (left hemisphere),type 2 diabetes,-0.04645073856341553,-0.32440016062497656,0.004029815018728943
+disease,Brain,Volume of medialorbitofrontal (left hemisphere),depressive episode,-0.04645073856341553,-0.19636603661396215,0.024025144624885742
+disease,Kidney,Volume of medialorbitofrontal (left hemisphere),type 2 diabetes,-0.03421741659181727,-0.32440016062497656,0.004029815018728943
+disease,Kidney,Volume of medialorbitofrontal (left hemisphere),depressive episode,-0.03421741659181727,-0.19636603661396215,0.024025144624885742
+disease,Brain,Volume of medialorbitofrontal (right hemisphere),hypertension,-0.05439150845927185,-0.11213209117697646,0.022764728109162486
+disease,Brain,Volume of middletemporal (left hemisphere),type 2 diabetes,-0.03097273856474224,-0.26213546362006906,0.030983703946792042
+disease,Brain,Volume of middletemporal (left hemisphere),hypertension,-0.03097273856474224,-0.11537256068897918,0.032300758528996346
+disease,Brain,Volume of paracentral (left hemisphere),hypertension,-0.042025833315705294,-0.11895504126039612,0.012796768237364487
+disease,Brain,Volume of paracentral (right hemisphere),hypertension,-0.04285162916112807,-0.16846583750278343,0.00038353117113635416
+disease,Brain,Volume of postcentral (left hemisphere),type 2 diabetes,-0.04830616489890825,-0.3572633662908673,0.002722787113399406
+disease,Brain,Volume of postcentral (left hemisphere),hypertension,-0.04830616489890825,-0.15625987510877942,0.002795342618633094
+disease,Brain,Volume of posteriorcingulate (left hemisphere),type 2 diabetes,-0.03542014971417798,-0.21440066845706843,0.038852908118210044
+disease,Brain,Volume of posteriorcingulate (right hemisphere),type 2 diabetes,-0.04352799281502748,-0.26055825597741195,0.011797349122989454
+disease,Brain,Volume of posteriorcingulate (right hemisphere),hypertension,-0.04352799281502748,-0.1466623104152668,0.0017592411563330495
+disease,Brain,Volume of precentral (left hemisphere),coronary heart disease,-0.0413834159748917,-0.4166946246237514,0.0008648397011419305
+disease,Brain,Volume of precentral (left hemisphere),type 2 diabetes,-0.0413834159748917,-0.5142360836659647,6.860397562900476e-06
+disease,Brain,Volume of precentral (left hemisphere),hypertension,-0.0413834159748917,-0.20892760000542862,4.935186231693048e-05
+disease,Brain,Volume of precentral (left hemisphere),angina pectoris,-0.0413834159748917,-0.4166946246237514,0.0008648397011419305
+disease,Kidney,Volume of precentral (left hemisphere),coronary heart disease,-0.033041838838530777,-0.4166946246237514,0.0008648397011419305
+disease,Kidney,Volume of precentral (left hemisphere),type 2 diabetes,-0.033041838838530777,-0.5142360836659647,6.860397562900476e-06
+disease,Kidney,Volume of precentral (left hemisphere),hypertension,-0.033041838838530777,-0.20892760000542862,4.935186231693048e-05
+disease,Kidney,Volume of precentral (left hemisphere),angina pectoris,-0.033041838838530777,-0.4166946246237514,0.0008648397011419305
+disease,Brain,Volume of precentral (right hemisphere),type 2 diabetes,-0.037003169889899365,-0.28660123007864147,0.010329651890555796
+disease,Brain,Volume of precentral (right hemisphere),hypertension,-0.037003169889899365,-0.17265046921541216,0.0006007395374228789
+disease,Brain,Volume of precuneus (left hemisphere),type 2 diabetes,-0.029345549208736065,-0.27302820033470515,0.02325332941588106
+disease,Brain,Volume of precuneus (right hemisphere),hypertension,-0.025381817811912746,-0.11383403761680891,0.04154834945345532
+disease,Skin,Volume of precuneus (right hemisphere),hypertension,0.03719050098161365,-0.11383403761680891,0.04154834945345532
+disease,Skin,Volume of precuneus (right hemisphere),asthma,0.03719050098161365,0.15217685501867198,0.02464449080731892
+disease,Brain,Volume of rostralmiddlefrontal (right hemisphere),type 2 diabetes,-0.04163355512664661,-0.25659588558599866,0.037780169391544716
+disease,Brain,Volume of superiorfrontal (left hemisphere),coronary heart disease,-0.04132760281159892,-0.3305704436733866,0.021110057106949798
+disease,Brain,Volume of superiorfrontal (left hemisphere),hypertension,-0.04132760281159892,-0.16965348313385853,0.003513211524715013
+disease,Brain,Volume of superiorfrontal (left hemisphere),angina pectoris,-0.04132760281159892,-0.3305704436733866,0.021110057106949798
+disease,Brain,Volume of superiorfrontal (right hemisphere),type 2 diabetes,-0.03332766481677903,-0.2944549102303966,0.030546225122583277
+disease,Brain,Volume of superiorfrontal (right hemisphere),hypertension,-0.03332766481677903,-0.1230401363697932,0.03996076573998295
+disease,Brain,Volume of superiorparietal (left hemisphere),type 2 diabetes,-0.031486657794744244,-0.22018049603906217,0.04293120754900547
+disease,Brain,Volume of superiorparietal (left hemisphere),pulmonary heart diseases,-0.031486657794744244,-0.47114663869627516,0.04638779791553992
+disease,Brain,Volume of superiortemporal (left hemisphere),hypertension,-0.04026817821138477,-0.14357156738762078,0.006825723201592798
+disease,Kidney,Volume of superiortemporal (left hemisphere),hypertension,-0.03117955571852155,-0.14357156738762078,0.006825723201592798
+disease,Brain,Volume of superiortemporal (right hemisphere),hypertension,-0.04156625766999966,-0.1288639033180461,0.01635606490629102
+disease,Brain,Volume of superiortemporal (right hemisphere),venous thrombosis,-0.04156625766999966,-0.385596732939301,0.02021186617843761
+disease,Brain,Volume of superiortemporal (right hemisphere),depressive episode,-0.04156625766999966,0.22266845611944186,0.016166300172690447
+disease,Kidney,Volume of superiortemporal (right hemisphere),hypertension,-0.0318563260547783,-0.1288639033180461,0.01635606490629102
+disease,Kidney,Volume of superiortemporal (right hemisphere),venous thrombosis,-0.0318563260547783,-0.385596732939301,0.02021186617843761
+disease,Kidney,Volume of superiortemporal (right hemisphere),depressive episode,-0.0318563260547783,0.22266845611944186,0.016166300172690447
+disease,Brain,Volume of supramarginal (left hemisphere),type 2 diabetes,-0.03412204598129824,-0.346915151994766,0.003117383124593957
+disease,Brain,Volume of supramarginal (left hemisphere),hypertension,-0.03412204598129824,-0.20782304878016358,5.0762350922643665e-05
+disease,Brain,Volume of supramarginal (right hemisphere),hypertension,-0.049136553250800075,-0.19662869987794412,0.00012262901623147243
+disease,Brain,Volume of transversetemporal (left hemisphere),coronary heart disease,-0.04868872903155136,-0.22251976774934162,0.048598254588672084
+disease,Brain,Volume of transversetemporal (left hemisphere),hypertension,-0.04868872903155136,-0.09084438543693371,0.03959099474939648
+disease,Brain,Volume of transversetemporal (left hemisphere),angina pectoris,-0.04868872903155136,-0.22251976774934162,0.048598254588672084

@@ -1,0 +1,439 @@
+==============================================================================
+多器官蛋白质组学老化 × 脑结构 × 疾病 × 认知：整合分析总结报告
+FINAL SUMMARY REPORT  (叙事版 / narrative)
+==============================================================================
+
+【一、总体故事框架与分析思路】
+
+■ 研究背景与缺口
+  既有工作用血浆蛋白质组构建了 18 个器官系统的老化加速指标(organ age gap)，
+  并证实器官老化加速与多种系统性疾病风险相关；另有工作发现单个血浆蛋白与 MRI
+  脑结构存在关联。但两条线之间仍有缺口：在【器官系统】层面(而非单蛋白层面)的
+  老化加速，是否以【器官特异】的方式关联到不同脑结构、不同类型疾病与认知，
+  并可能通过脑结构这一中间环节把外周老化与神经结局联系起来，尚不清楚。
+
+■ 核心科学问题
+  外周 18 个器官的蛋白质组学老化加速(age gap)，对脑结构、对不同【类型】的疾病
+  (神经/心血管/代谢/呼吸/消化/肾/血液/皮肤等)以及对认知功能，各自呈现怎样的
+  关联图谱？其中有多少是器官特异的、有多少是广泛累及的？脑结构是否在'器官老化
+  →结局'中起中介作用？
+
+■ 数据概况(各模块分别取子样本交集、如实报告 N，样本量差异很大)
+  · 全样本(器官 age gap)：            N = 44,810
+  · 有年龄/性别可分析：              N = 7,954 (限制所有下游模块的瓶颈)
+  · 脑影像·全局/皮层(需 eTIV)：      N = 3,960
+  · 脑影像·皮层下体积：              N = 5,653
+  · 疾病模块：                       N = 7,383
+  · 认知模块(随测验不同)：           FluidIntelligence=7,282; ReactionTime=7,352; NumericMemory=3,796; TowerRearranging=3,653; PairedAssociateLearning=6,152; TrailMaking_Numeric=6,095; TrailMaking_Alphanumeric=5,949
+  · 18 器官：Adipose, Adrenal, Artery, Brain, Esophagus, Heart, Immune, Intestine, Kidney, Liver, Lung, Muscle, Pancreas, Pituitary, Salivary, Skin, Stomach, Thyroid
+  · 脑结构指标分三族：A=全局脑量指标(皮层体积/总灰质/平均皮层厚度/脑室/白质/eTIV 等)、
+    B=皮层下体积(丘脑/尾状核/壳核/海马/杏仁核/伏隔核等，双侧)、C=皮层各区体积。
+    (A/B/C 只是脑指标的分族，用于分族 FDR 与分类热图，非等级/优劣之分。)
+
+■ 分析框架(5 个主模块 + 中介 + 性别敏感性)
+  ┌──────────────────────────────────────────────────────────────────┐
+  │ 模块1  器官老化 → 脑结构    (含①脑老化模型有效性 ②外周→脑跨器官信号) │
+  │ 模块2  器官老化 → 疾病      (OR/Cohen d、器官×疾病类型画像、神经vs系统、 │
+  │                             累积老化负担→疾病风险剂量-反应)           │
+  │ 模块3  器官老化 → 认知      (偏相关 + 累积负担→认知剂量-反应)          │
+  │ 模块4  中介分析(探索)       器官 → 脑结构 → 认知/疾病                  │
+  │ 模块5  性别分层与交互(敏感性) organ×gender 交互，分性别复核主效应      │
+  └──────────────────────────────────────────────────────────────────┘
+
+■ 核心叙事逻辑(用本研究真实结果串联)
+  (1) 模块1 先确立效度：脑自身 age gap 与脑结构高度耦合，仅说明脑老化钟【有效】
+      (自证，不作生物学新发现)；真正有价值的是【外周器官→脑结构】的跨器官信号。
+  (2) 模块1 外周信号弱但结构清晰：不同外周器官各自耦合到特定脑区，而非全脑齐萎缩。
+  (3) 模块2 把器官老化投射到不同【疾病类型】：风险关联最强、最稳健的集中在代谢/
+      心血管/肾等系统性疾病；受可分析神经退行病样本极小限制，无法稳健地分出强神经特异器官。
+  (4) 模块3 器官→认知的【直接】关联很弱——提示外周老化多为【间接】影响认知，
+      这正是模块4 用脑结构做中介的动机。
+  (5) 模块3/模块2 的【累积老化负担】剂量-反应稳健：极端老化器官越多，脑量越小、
+      认知越差、系统性疾病越多——这是全篇效应量最大、最通俗的结果。
+  (6) 模块4 中介为探索性(效应极小)；模块5 显示主效应总体不强烈依赖性别。
+
+■ 全量结果指路(每个子分析都【全量运行、全量落表】，正文只挑典型强效叙述；
+  要看某个子分析的【完整】清单，请到对应 tables/ 下的 CSV，图在 figures/)
+  说明：正文里的'最强 N 条''逐器官最强靶区'只是导读，下列表才是全量结果。
+  ┌── 模块1 器官老化 → 脑结构 ──────────────────────────────────────────┐
+  │ M1-A 偏相关(全量长表，每个器官×每个脑指标一行) : M1/T1.1_M1A_partial_corr_long.csv
+  │   ├ 脑自身耦合(效度)子集                        : M1/T1.3a_M1A_brain_self_coupling.csv
+  │   ├ 外周→脑子集(主线)                           : M1/T1.3b_M1A_peripheral_to_brain.csv
+  │   ├ 仅列 BH 显著对                              : M1/T1.3_M1A_significant_pairs.csv
+  │   ├ 全局脑量对照后的特异效应                    : M1/T1.2_M1A_global_control_specific_effects.csv
+  │   └ 相关矩阵(A/B/C 三族)                        : M1/T1.4_M1A_rmatrix_class{A,B,C}.csv
+  │ M1-B 18器官联合回归 β + 共线性(VIF)            : M1/T1.5_M1B_multiorgan_betas.csv, T1.6, T1.7
+  │ M1-C 分层小结/层间比较                          : M1/T1.8_M1C_stratified_summary.csv, T1.9
+  │ M1-D 累积负担→整体脑量 剂量-反应                : M1/T1.10_M1D_dose_response.csv
+  ├── 模块2 器官老化 → 疾病 ────────────────────────────────────────────┤
+  │ M2-A OR/Cohen d 全量效应矩阵                    : M2/T2.1_M2A_effect_matrix.csv, T2.2
+  │ M2-D 器官×疾病类别画像 + 主导类别 + 矩阵        : M2/T2.6, T2.7, T2.8; 每病 top 器官 T2.5
+  │ M2-E 累积负担→疾病 OR / 患病率 / 病数剂量-反应  : M2/T2.9, T2.10, T2.11
+  ├── 模块3 器官老化 → 认知 ────────────────────────────────────────────┤
+  │ M3-A 偏相关全量表 + 相关矩阵 + 显著子集         : M3/T3.1_M3A_partial_corr.csv, T3.2, T3.3
+  │ M3-B 累积负担→认知 剂量-反应                    : M3/T3.4_M3B_dose_response.csv
+  ├── 模块4 中介(器官→脑结构→结局) ────────────────────────────────────┤
+  │ M4  预筛候选全量表 / 全部路径 Bootstrap 结果 / 仅显著 : M4/T4.1_M4_prescreen.csv, T4.2, T4.3
+  ├── 模块5 性别分层与交互 ────────────────────────────────────────────┤
+  │ M5  分性别脑/负担/OR/认知 + organ×gender 交互   : M5/T5.1…T5.6
+  └── 模块0 样本构成/描述/缺失/Winsor 日志          : M0/T0.1…T0.8 ───────────┘
+
+【二、各模块详细结果】
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【主要结果】模块 1：器官老化 → 脑结构
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+核心问题：外周器官系统的蛋白老化加速，是否独立地伴随真实 MRI 脑结构改变？
+方法：经典多元线性回归直接法 BrainMetric ~ organ_gap + age + gender (+eTIV 仅体积类)，
+      偏相关 r 由 t 统计量换算；体积类另加全局脑量做特异性对照；18 器官联合入模查 VIF。
+
+【M1-A 子分析① · 脑自身偏相关】Brain age gap × 脑结构(效度自证)
+  反映：这条不是生物学新发现，而是【脑老化钟是否可信】的自检——脑年龄基于脑数据训练，
+        若它与真实 MRI 脑结构强相关，说明该 age gap 确实测到了脑退行，为主线分析背书。
+  111 项检验中 57 项 BH-FDR 显著，平均 |r|=0.035。
+  方向符合神经退行预期(皮层/灰质↓、白质相对↑)，最强的若干项(全量见 T1.3a)：
+    CortexVol                                 r=-0.089  p=2.34e-08  **†‡
+    lhCortexVol                               r=-0.084  p=1.18e-07  **†‡
+    rhCortexVol                               r=-0.082  p=2.45e-07  **†‡
+    CerebralWhiteMatterVol                    r=+0.079  p=6.16e-07  **†‡
+    rhCerebralWhiteMatterVol                  r=+0.079  p=6.40e-07  **†‡
+    lhCerebralWhiteMatterVol                  r=+0.078  p=8.15e-07  **†‡
+  解读：脑年龄钟本就基于脑数据训练，二者强相关是【预期的自证】，只说明这批脑老化
+        预测确实有效，为后续分析奠定效度基础，本身不算生物学新发现。
+
+【M1-A 子分析② · 外周→脑偏相关】外周器官 age gap × 脑结构 ★全篇主线★
+  反映：这是本研究真正关心的跨器官信号——某个外周器官老得快，是否伴随特定脑区结构改变，
+        即'躯体老化在脑上留下的印记'。效应虽小，却是把外周老化与脑连起来的核心一环。
+  1887 项检验中 124 项 BH 显著，覆盖 10 个外周器官。外周关联的效应量
+  本身很小(|r|≈0.05–0.11)，因此不看'全局前 N 名'(会被垂体/肾刷屏)，而是【逐器官】列出
+  各自最强的显著脑靶区，使所有有信号的器官都得到呈现：
+    Pituitary  × BrainSegVol-to-eTIV                 r=+0.112  p=1.65e-12  (该器官共 42 项显著)
+    Salivary   × Volume of Hippocampus (right hemis  r=-0.064  p=6.09e-05  (该器官共 8 项显著)
+    Immune     × Volume of Brain-Stem (whole brain)  r=-0.063  p=7.96e-05  (该器官共 1 项显著)
+    Skin       × BrainSegVol-to-eTIV                 r=+0.057  p=3.09e-04  (该器官共 5 项显著)
+    Adrenal    × BrainSegVol                         r=-0.057  p=3.20e-04  (该器官共 16 项显著)
+    Kidney     × BrainSegVolNotVent                  r=-0.057  p=3.50e-04  (该器官共 29 项显著)
+    Muscle     × Volume of Pallidum (left hemispher  r=-0.057  p=3.76e-04  (该器官共 13 项显著)
+    Intestine  × VentricleChoroidVol                 r=+0.056  p=3.88e-04  (该器官共 1 项显著)
+    Thyroid    × lhMeanThickness                     r=+0.056  p=4.67e-04  (该器官共 5 项显著)
+    Lung       × lhWhiteSurfArea                     r=-0.055  p=5.81e-04  (该器官共 4 项显著)
+  解读：覆盖面最广的是 Pituitary(42 项)与 Kidney(29 项)；其余器官虽 |r| 较小，
+        但方向清晰、经 BH 校正稳健，且各自指向【特定】脑区(如唾液腺→海马、免疫→脑干、
+        肌肉→苍白球)，支持'不同外周系统老化各自耦合到特定脑结构'而非笼统全脑萎缩。
+  ★ 值得点明：17 个外周器官中只有 10 个通过 BH-FDR 与脑结构显著关联，其余 7 个未过校正阈值：
+        Adipose, Artery, Esophagus, Heart, Liver, Pancreas, Stomach
+        这 7 个恰是心血管/代谢/消化类器官(脂肪/动脉/食管/心/肝/胰/胃)。需谨慎解读——这【不等于】
+        否定'心-脑轴/心-肠-脑轴'等公认的共同老化：(1) 它们其实存在方向合理的【名义】关联，只是
+        效应太小、在小影像样本(n≈3,960)里 111 项检验经 BH 校正后未达显著。例如 Heart→右海马
+        r=-0.043(p=0.007)、Heart→侧脑室/脉络丛 r=+0.050(p=0.002，脑萎缩方向)、Liver→脑干
+        r=-0.051(p=0.001)，均为典型退行方向，但 min p_BH 仅 0.15–0.20 未过关。(2) 更关键的是
+        '心-脑轴'的机制主要走【血管/灌注→白质高信号/小血管病/认知】通路，而本模块测的是结构性
+        灰质/皮层体积(FreeSurfer)，本就难以捕捉血管性底物；因此'结构体积上不显著'≠'无心脑轴'。
+        与此一致，Heart 的老化信号强烈体现在其机制对口的地方——心血管/代谢疾病(传导障碍 OR=1.57、
+        冠心病、高血压)与累积负担(见模块2)，而非结构性脑体积。
+
+【M1-B · 18 器官联合回归 + 共线性诊断(VIF)】
+  反映：把 18 个器官 age gap 同时放进模型，检验上面的单器官→脑关联是否只是器官间彼此
+        相关的假象；VIF 用来判断这种共线性是否严重到让系数不可信(全量 β 见 T1.5)。
+  结果：最大 VIF 中位数 2.25，严重共线性(>10)指标 0 个；
+  各器官 age gap 间共线性总体可控，上述单器官关联在 18 器官联合模型中大体保持独立。
+
+【M1-D · 累积极端老化负担 → 整体脑量(剂量-反应)】
+  反映：不看单个器官，而看'一个人有几个器官在极端老化'这一累积负担，是否随之带来更小的
+        整体脑量——把分散的单器官信号汇总成一个通俗、稳健的剂量效应(全量见 T1.10)。
+  结果：top20% 口径下 6 个整体脑量指标中 4 个 ANOVA 显著；
+  极端老化器官数越多，整体脑量(总灰质/皮层体积/皮层厚度等)越小，呈单调递减趋势(见 F1.3)。
+小结：Brain 自身关联仅确认模型有效；真正发现在【外周器官→脑】这一跨器官维度——效应量小
+      但结构清晰、器官特异；累积负担与整体脑量呈剂量-反应。
+  ★ 承上启下(垂体解离)：Pituitary 是本模块与脑结构耦合最强、覆盖面最广的器官(42 项显著、
+    r 最高≈0.11)，但正如下一模块所示，它对系统性疾病风险几乎【零】关联——形成'强脑结构耦合 /
+    弱疾病关联'的解离，符合垂体作为神经内分泌枢纽、其蛋白老化主要反映脑/神经内分泌轴的解读。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【主要结果】模块 2：器官老化 → 疾病(不同疾病类型的关联图谱)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+核心问题：每个器官的老化，各自对应【哪些类型】的疾病(系统性 vs 神经性、以及细分系统)？
+方法：(A) 器官×疾病 Cohen's d(病例≥30) 与 Logistic 回归 OR(每 1SD，病例≥50，控年龄+性别)；
+      (B) 器官×疾病类别画像(主导疾病类别)；
+      (C) 累积极端老化负担(top20%单侧，0/1/2/3/4+)→疾病风险剂量-反应。
+      主分析纳入疾病(17 种，病例≥50)：anaemias, angina pectoris, anxiety disorders, arthritis, asthma, colitis, conduction disorders, coronary heart disease, depressive episode, gallbladder diseases, hypertension, psoriasis, pulmonary heart diseases, renal failure, stroke, type 2 diabetes, venous thrombosis
+
+【M2-A · 器官→疾病 风险关联(Logistic OR，每 1SD age gap)】
+  反映：每个器官老得快，会把病风险推向哪些【类型】的疾病(代谢/心血管/肾/神经…)——
+        即器官老化的'临床出口'。OR>1 表示该器官每快老 1SD、该病风险上升。
+  共 306 个器官×疾病 OR，BH 显著 89 个(全量见 T2.1)。风险关联最强(|lnOR| 最大)者：
+    Intestine  → type 2 diabetes             OR=1.78 [1.59,1.98]  p=3.67e-25  **†‡
+    Adrenal    → type 2 diabetes             OR=1.71 [1.56,1.88]  p=1.19e-28  **†‡
+    Kidney     → type 2 diabetes             OR=1.65 [1.50,1.81]  p=7.98e-26  **†‡
+    Intestine  → renal failure               OR=1.60 [1.34,1.91]  p=2.43e-07  **†‡
+    Heart      → conduction disorders        OR=1.57 [1.30,1.89]  p=3.23e-06  **†‡
+    Immune     → type 2 diabetes             OR=1.57 [1.40,1.75]  p=8.66e-16  **†‡
+    Stomach    → anaemias                    OR=1.50 [1.32,1.69]  p=1.29e-10  **†‡
+    Skin       → renal failure               OR=1.43 [1.20,1.71]  p=6.36e-05  **†‡
+    Brain      → type 2 diabetes             OR=1.41 [1.27,1.57]  p=7.09e-11  **†‡
+    Pancreas   → renal failure               OR=1.41 [1.19,1.67]  p=8.58e-05  **†‡
+    Brain      → renal failure               OR=1.40 [1.18,1.66]  p=1.27e-04  **†‡
+    Kidney     → coronary heart disease      OR=1.37 [1.23,1.52]  p=1.19e-08  **†‡
+  解读：最强、最稳健的风险关联高度集中在【代谢/内分泌】(2 型糖尿病)、【心血管】(冠心病/
+        心绞痛/传导障碍)、【肾/泌尿】(肾衰)与【血液】(贫血)——即器官老化主要投射到系统性疾病。
+  逐器官最典型疾病关联(每个器官取其最强一条，优先 BH 显著；保证每个器官都不遗漏)：
+    Heart      → conduction disorders      OR=1.57 [1.30,1.89]  p=3.23e-06  (4 项BH显著)
+    Artery     → hypertension              OR=1.09 [1.04,1.15]  p=7.94e-04  (1 项BH显著)
+    Liver      → coronary heart disease    OR=1.27 [1.13,1.43]  p=7.92e-05  (5 项BH显著)
+    Pancreas   → renal failure             OR=1.41 [1.19,1.67]  p=8.58e-05  (9 项BH显著)
+    Kidney     → type 2 diabetes           OR=1.65 [1.50,1.81]  p=7.98e-26  (9 项BH显著)
+    Adipose    → renal failure             OR=1.27 [1.05,1.53]  p=0.012  (8 项BH显著)
+    Muscle     → colitis                   OR=1.24 [1.02,1.51]  p=0.032  (无BH显著・下为名义最强)
+    Esophagus  → conduction disorders      OR=0.80 [0.64,0.98]  p=0.035  (无BH显著・下为名义最强)
+    Stomach    → anaemias                  OR=1.50 [1.32,1.69]  p=1.29e-10  (5 项BH显著)
+    Intestine  → type 2 diabetes           OR=1.78 [1.59,1.98]  p=3.67e-25  (9 项BH显著)
+    Brain      → type 2 diabetes           OR=1.41 [1.27,1.57]  p=7.09e-11  (7 项BH显著)
+    Pituitary  → colitis                   OR=0.90 [0.73,1.10]  p=0.293  (无BH显著・下为名义最强)
+    Adrenal    → type 2 diabetes           OR=1.71 [1.56,1.88]  p=1.19e-28  (7 项BH显著)
+    Thyroid    → type 2 diabetes           OR=1.24 [1.12,1.37]  p=6.16e-05  (4 项BH显著)
+    Immune     → type 2 diabetes           OR=1.57 [1.40,1.75]  p=8.66e-16  (3 项BH显著)
+    Lung       → hypertension              OR=1.09 [1.04,1.15]  p=6.37e-04  (1 项BH显著)
+    Skin       → renal failure             OR=1.43 [1.20,1.71]  p=6.36e-05  (12 项BH显著)
+    Salivary   → type 2 diabetes           OR=1.27 [1.14,1.41]  p=9.35e-06  (5 项BH显著)
+  ★ 垂体解离(呼应模块1)：Pituitary 在模块1 与脑结构耦合最强(42 项显著、r≈0.11)，但在此
+        对 17 种疾病的 OR 中【BH 显著 0 个】——最强也仅 Pituitary→colitis  OR=0.90 (p=0.293，不显著)。
+        即'强脑结构耦合 / 弱疾病关联'的解离：垂体蛋白老化更像脑/神经内分泌轴的读数，
+        而非外周系统性疾病负担的读数，与 Kidney/Adrenal(强疾病、弱专一脑区)恰成对照。
+
+【M2-D · 器官×疾病类别画像】每个器官的'主导疾病类别'(mean|d| 最大的类别)
+  反映：把单病归并成生理系统大类后，每个器官老化最偏向哪一大类疾病，看'器官→病类'的总体分工。
+    Heart      → Metabolic/Endocrine         mean|d|=0.274
+    Artery     → Metabolic/Endocrine         mean|d|=0.211
+    Liver      → Digestive/Hepatobiliary     mean|d|=0.143
+    Pancreas   → Renal/Urinary               mean|d|=0.411
+    Kidney     → Metabolic/Endocrine         mean|d|=0.640
+    Adipose    → Musculoskeletal             mean|d|=0.236
+    Muscle     → Renal/Urinary               mean|d|=0.208
+    Esophagus  → Renal/Urinary               mean|d|=0.270
+    Stomach    → Hematologic                 mean|d|=0.246
+    Intestine  → Metabolic/Endocrine         mean|d|=0.616
+    Brain      → Metabolic/Endocrine         mean|d|=0.307
+    Pituitary  → Renal/Urinary               mean|d|=0.187
+    Adrenal    → Metabolic/Endocrine         mean|d|=0.634
+    Thyroid    → Metabolic/Endocrine         mean|d|=0.246
+    Immune     → Metabolic/Endocrine         mean|d|=0.493
+    Lung       → Renal/Urinary               mean|d|=0.254
+    Skin       → Renal/Urinary               mean|d|=0.339
+    Salivary   → Hematologic                 mean|d|=0.234
+  诚实提示：代谢/呼吸/肌骨/肾等类目前各仅含 1 种病，'类 mean|d|'即该单病，细化解释需谨慎
+            (类内病数见 T2.6 的 n_disease 列)；完整器官×类别矩阵见 T2.7、热图 F2.4。
+
+【M2-E · 累积极端老化负担 → 疾病风险】(每多 1 个 top20% 极端老化器官)
+  反映：不问是哪个器官，只问'极端老化器官数越多、病是否越多'——累积老化负担的剂量效应。
+  17 种主分析疾病中 13 种 BH 显著，风险随负担上升(全量见 T2.9)。最强者：
+    type 2 diabetes            [Metabolic/Endocr]  OR=1.277 [1.23,1.33]  p=3.84e-34  **†‡
+    renal failure              [Renal/Urinary   ]  OR=1.234 [1.16,1.31]  p=5.68e-11  **†‡
+    coronary heart disease     [Cardiovascular  ]  OR=1.153 [1.10,1.21]  p=8.82e-10  **†‡
+    angina pectoris            [Cardiovascular  ]  OR=1.153 [1.10,1.21]  p=8.82e-10  **†‡
+    hypertension               [Cardiovascular  ]  OR=1.141 [1.12,1.17]  p=4.56e-32  **†‡
+    anaemias                   [Hematologic     ]  OR=1.122 [1.06,1.18]  p=3.05e-05  **†‡
+    pulmonary heart diseases   [Cardiovascular  ]  OR=1.110 [1.02,1.21]  p=0.016  *†
+    venous thrombosis          [Cerebro/Vascular]  OR=1.107 [1.04,1.18]  p=8.96e-04  **†‡
+  多病共存：主分析疾病总数随极端老化器官数线性上升(ANOVA F=29.4, p=<1e-300, 线性趋势 p=8.50e-25)。
+  解读：这是模块 2 中效应最稳、最可解释的结果——多器官同时加速老化的人，系统性疾病(尤其
+        2 型糖尿病、肾衰、心血管病)负担显著更重，呈清晰剂量-反应(森林图 F2.5、剂量曲线 F2.6)。
+小结：器官老化主要投射到【系统性疾病】(代谢/心血管/肾/血液)；受神经退行病样本过小限制，
+      无法稳健地分出强神经特异器官(Brain 属广泛非特异)；累积负担→系统性疾病的剂量-反应最稳健。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【主要结果】模块 3：器官老化 → 认知功能
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+核心问题：器官老化是否【直接】关联认知表现？还是主要通过脑结构等中间环节【间接】影响？
+方法：(A) 器官×认知偏相关，控年龄+性别(不控 eTIV/脑量)，BH/BY 校正；
+      (B) 累积极端老化负担→认知剂量-反应(ANOVA + 线性/二次趋势)。
+
+【M3-A · 器官×认知 偏相关】(控年龄+性别，不控脑量)
+  反映：器官老化是否【直接】跟认知表现挂钩。故意不控脑量——若连不控脑量都弱，则提示
+        器官→认知主要是【经脑结构等中间环节】的间接影响，这正是模块 4 做中介的动机。
+  126 个器官×认知检验，BH 显著 33 个(全量见 T3.1)。关联普遍很弱(|r|≈0.04–0.06)，最强者：
+    Stomach    × TrailMaking_Alphanumeric    r=+0.059  p=4.87e-06  n=5949  **†‡
+    Skin       × NumericMemory               r=-0.054  p=9.60e-04  n=3796  **†
+    Pancreas   × NumericMemory               r=-0.050  p=0.002  n=3796  **†
+    Stomach    × NumericMemory               r=-0.049  p=0.003  n=3796  **†
+    Muscle     × TrailMaking_Alphanumeric    r=+0.048  p=2.00e-04  n=5949  **†‡
+    Intestine  × NumericMemory               r=-0.048  p=0.003  n=3796  **†
+    Stomach    × TrailMaking_Numeric         r=+0.047  p=2.20e-04  n=6095  **†‡
+    Salivary   × ReactionTime                r=+0.045  p=1.07e-04  n=7352  **†‡
+    Stomach    × FluidIntelligence           r=-0.044  p=1.55e-04  n=7282  **†‡
+    Stomach    × ReactionTime                r=+0.044  p=1.56e-04  n=7352  **†‡
+    Salivary   × NumericMemory               r=-0.043  p=0.009  n=3796  **†
+    Salivary   × TrailMaking_Alphanumeric    r=+0.042  p=0.001  n=5949  **†
+  解读：Stomach/Salivary/Skin/Muscle 等消化-体被-肌肉类器官与认知(尤其数字记忆、连线)有
+        零星弱关联；但整体效应量远小于'器官→脑结构'，说明躯体老化对认知多为【间接】影响。
+  逐器官最典型认知关联(每个器官取其最强一条，优先 BH 显著；不遗漏器官)：
+    Heart      × TrailMaking_Alphanumeric  r=+0.013  p=0.320  (无BH显著・下为名义最强)
+    Artery     × ReactionTime              r=+0.020  p=0.082  (无BH显著・下为名义最强)
+    Liver      × TrailMaking_Numeric       r=+0.024  p=0.063  (无BH显著・下为名义最强)
+    Pancreas   × NumericMemory             r=-0.050  p=0.002  (1 项BH显著)
+    Kidney     × TrailMaking_Numeric       r=+0.036  p=0.005  (4 项BH显著)
+    Adipose    × NumericMemory             r=-0.030  p=0.061  (无BH显著・下为名义最强)
+    Muscle     × TrailMaking_Alphanumeric  r=+0.048  p=2.00e-04  (2 项BH显著)
+    Esophagus  × NumericMemory             r=-0.018  p=0.270  (无BH显著・下为名义最强)
+    Stomach    × TrailMaking_Alphanumeric  r=+0.059  p=4.87e-06  (6 项BH显著)
+    Intestine  × NumericMemory             r=-0.048  p=0.003  (6 项BH显著)
+    Brain      × TrailMaking_Alphanumeric  r=+0.035  p=0.007  (2 项BH显著)
+    Pituitary  × NumericMemory             r=-0.029  p=0.072  (无BH显著・下为名义最强)
+    Adrenal    × PairedAssociateLearning   r=-0.033  p=0.011  (无BH显著・下为名义最强)
+    Thyroid    × NumericMemory             r=-0.033  p=0.045  (无BH显著・下为名义最强)
+    Immune     × ReactionTime              r=+0.017  p=0.150  (无BH显著・下为名义最强)
+    Lung       × FluidIntelligence         r=-0.038  p=0.001  (1 项BH显著)
+    Skin       × NumericMemory             r=-0.054  p=9.60e-04  (5 项BH显著)
+    Salivary   × ReactionTime              r=+0.045  p=1.07e-04  (6 项BH显著)
+
+【M3-B · 累积极端老化负担 → 认知(剂量-反应)】
+  反映：与 M3-A 的弱直接关联互补——看'极端老化器官数越多、认知是否越差'的累积效应。
+  结果：7 项测验中 6 项 ANOVA 显著(全量见 T3.4)：
+    TrailMaking_Alphanumeric    F=6.22  p_anova=5.39e-05  线性趋势 p=3.51e-06
+    NumericMemory               F=6.19  p_anova=5.86e-05  线性趋势 p=9.34e-05
+    FluidIntelligence           F=4.32  p_anova=0.002  线性趋势 p=5.77e-04
+    ReactionTime                F=4.20  p_anova=0.002  线性趋势 p=4.66e-04
+    TrailMaking_Numeric         F=4.18  p_anova=0.002  线性趋势 p=9.29e-04
+    PairedAssociateLearning     F=3.07  p_anova=0.016  线性趋势 p=0.001
+  解读：极端老化器官越多，多项认知(数字记忆、流体智力、连线等)表现越差，呈剂量-反应(F3.2)——
+        与模块 3-A 的弱直接关联相比，累积负担的整体效应更清晰。
+小结：器官→认知的直接关联很弱，累积负担→认知的剂量-反应较清晰；直接效应弱正是模块 4 用脑结构做中介的理由。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【探索性】模块 4：中介分析(器官 → 脑结构 → 认知/疾病)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+定位：探索性机制提示。间接效应是两个小效应相乘，量级必然极小，不作主结论。
+方法：三段式预筛(X→M 经 M1-A BH 显著；M→Y p<0.05；X→Y 总效应 p<0.1)，
+      再对入选路径做 200 次 Bootstrap 的 BCa 95%CI；CI 不含 0 判显著。
+
+【M4 · 中介分解】反映：外周器官老化对结局的影响，有多少是【经由脑结构】传导的间接效应——
+  这是把'外周↔脑↔结局'主线真正串起来的一步；同时对照 Brain 自身链条，判断脑老化是直接还是间接。
+── 全量：预筛 523 条候选全部做 BCa Bootstrap(见 T4.1/T4.2)，95%CI 不含 0 的显著中介 488 条(T4.3)。 ──
+  显著中介覆盖 11 个器官(作为起点 X)，各器官显著路径数(Brain 与 Kidney 双双居首，见下解读)：
+    Kidney=135; Brain=132; Muscle=46; Adrenal=42; Salivary=34; Pituitary=33; Skin=28; Lung=21; Thyroid=10; Intestine=6; Immune=1
+  按【结局类型】分：认知链(X→脑结构→认知)显著 287 条、疾病链(X→脑结构→疾病)显著 201 条；
+    两族分别代表'外周老化经脑结构影响认知表现'与'…影响疾病风险'两条机制线，下面各自列典型强效。
+
+  (i) Brain 自身链条(Brain gap→脑结构→结局)：132 条显著，在所有器官中位居前列(第 2 位)。
+      这与模块1'效度自证'一致——Brain 与脑结构耦合最紧，故最容易被检出中介；但其
+      间接效应量并不大(|ab|≈0.000–0.007)，属预期而非新发现。示例：
+        Brain →lhCortexVol               →type 2 diabetes       ab=+0.0070 [+0.0028,+0.0137]  partial mediation
+        Brain →Volume of Brain-Stem (whol→type 2 diabetes       ab=-0.0069 [-0.0133,-0.0028]  partial mediation
+        Brain →TotalGrayVol              →type 2 diabetes       ab=+0.0066 [+0.0026,+0.0147]  partial mediation
+        Brain →CortexVol                 →type 2 diabetes       ab=+0.0063 [+0.0013,+0.0124]  partial mediation
+
+  (ii) 外周器官→脑结构→结局(真正跨器官的机制提示)：356 条显著，覆盖 10 个外周器官(数值上 |ab| 大于 Brain，故此前排序把 Brain 挤出，实为口径问题)。
+       按结局类型分开列各自 |ab| 最强路径：
+       · 疾病链(X→脑结构→疾病风险)：128 条，最强者——
+         Adrenal  →BrainSegVolNotVent    →type 2 diabetes     ab=+0.0315 [+0.0130,+0.0715]  partial mediation
+         Adrenal  →SupraTentorialVolNotVe→type 2 diabetes     ab=+0.0265 [+0.0103,+0.0656]  partial mediation
+         Adrenal  →BrainSegVol           →type 2 diabetes     ab=+0.0257 [+0.0079,+0.0585]  partial mediation
+         Adrenal  →BrainSegVol-to-eTIV   →type 2 diabetes     ab=+0.0214 [+0.0047,+0.0546]  partial mediation
+         Adrenal  →SupraTentorialVol     →type 2 diabetes     ab=+0.0208 [+0.0045,+0.0500]  partial mediation
+         Adrenal  →lhWhiteSurfArea       →type 2 diabetes     ab=+0.0202 [+0.0044,+0.0481]  partial mediation
+       · 认知链(X→脑结构→认知表现)：228 条，最强者——
+         Adrenal  →lhWhiteSurfArea       →NumericMemory       ab=-0.0194 [-0.0378,-0.0066]  partial mediation
+         Adrenal  →TotalSurfArea         →NumericMemory       ab=-0.0189 [-0.0362,-0.0059]  partial mediation
+         Adrenal  →rhWhiteSurfArea       →NumericMemory       ab=-0.0181 [-0.0351,-0.0051]  partial mediation
+         Kidney   →TotalSurfArea         →FluidIntelligence   ab=-0.0166 [-0.0298,-0.0081]  partial mediation
+         Kidney   →rhWhiteSurfArea       →FluidIntelligence   ab=-0.0165 [-0.0301,-0.0079]  partial mediation
+         Kidney   →lhWhiteSurfArea       →FluidIntelligence   ab=-0.0164 [-0.0290,-0.0080]  partial mediation
+  中介类型分布：partial mediation=476; inconsistent/suppression=12
+
+  ★ 关键点(中介比例)：Brain 自身链条的中介比例 prop_mediated 平均仅 ≈3.2%，即脑老化对
+      结局的影响【~97% 是直接效应】，几乎不经我们测的脑结构体积传导；而外周器官的
+      中介比例平均 ≈16%，明显更依赖'经由脑结构'的间接通路。
+      生物学含义：脑老化本身就是结局(认知/疾病)最贴近的神经底物，故以【直接效应】为主，用
+      结构体积作中介反而'中介不动'它；相反，外周器官老化要影响脑相关结局，更需要脑结构这个
+      '中间站'——这与'只有同时耦合脑与疾病的桥梁器官(Kidney/Adrenal)才成为主力中介'完全自洽。
+  解读：Brain 并未在中介中'隐身'——按显著路径数它高居前列(132 条，第 2 位)；之所以早
+        期'按 |ab| 前 N 名'看不到它，是因其间接效应量(|ab|≈0.000–0.007)小于外周器
+        官，属报告口径问题，已改为先按器官呈现覆盖面、再分'Brain 自身(效度)'与'外周→脑(机制)'两类。
+        真正有意义的是外周链条：Adrenal/Kidney→(脑实质/皮层表面积)→2 型糖尿病或认知，均'部分中介'，
+        提示脑结构在'外周器官老化→结局'中可能起桥梁作用；但 ab 极小，仅作机制提示。
+小结：中介为探索性证据，Brain 与 Kidney 是显著路径最多的中介起点(Brain 与效度一致、非隐身)；跨器官上
+      方向与主结果一致(脑结构居间)，但效应量极小，不作为独立结论。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【补充/敏感性】模块 5：性别分层与交互
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+说明：模块5 不止一个分析，共 5 个子分析——(A)分性别脑偏相关、(B)分性别负担剂量-反应、
+      (C) organ×gender 正式交互检验、(D)分性别疾病 OR、(E)分性别认知偏相关；下面逐个报告。
+      其中 (C) 是唯一做正式交互显著性检验的，(A/B/D/E) 是分性别复算主效应看方向是否一致。
+
+【M5-A · 分性别 器官×脑结构 偏相关】反映：模块1 的外周→脑耦合在男女中是否方向/强度一致。
+  1998 个 器官×脑指标 分别在两性复算；两性 r 之差(|r_diff|)最大者也仅 0.159(Liver×Volume of Brain-Stem (wh)，绝大多数器官脑耦合两性方向一致。
+【M5-B · 分性别 累积负担→整体脑量 剂量-反应】反映：模块1-D 的剂量效应是否两性都成立。
+  男性 2 项脑量 ANOVA 显著、女性 0 项(全量见 T5.2)——剂量-反应方向一致，男性显著项略多，提示负担→脑萎缩在男性中或更易检出，但两性趋势同向。
+【M5-C · organ×gender 正式交互检验】反映：把'关联强度是否随性别不同'做成显式交互项检验——
+  是本模块唯一给出交互 p 值的子分析，用来判定主效应是'两性通用'还是'性别特异'。
+  2430 个 organ×gender 交互(域分布：脑/疾病/认知)中，仅 2 项经 BH 校正稳健显著(全量见 T5.3)：
+    [brain   ] Liver     × Volume of Brain-Stem (whole   β_int=-75.2  p=6.36e-07  **†‡
+    [disease ] Immune    × gallbladder diseases          β_int=-0.502  p=4.29e-05  **†
+  解读：绝大多数器官-结局关联的强度在两性间【大体一致】，主效应不强烈依赖性别；少数稳健交互提示
+        该关联存在性别差异，解释时需单独说明。
+【M5-D · 分性别 器官→疾病 OR】反映：模块2 的器官→疾病风险在男女中是否一致。
+  612 个 疾病×性别×器官 OR，BH 显著 81 个(全量见 T5.5)；主要风险关联(如→2型糖尿病)在两性中方向一致，个别强度有别。
+【M5-E · 分性别 器官×认知 偏相关】反映：模块3 的器官→认知弱关联在男女中是否一致。
+  252 个 认知×性别×器官 偏相关，BH 显著 18 个(全量见 T5.6)；与模块3 一致，直接关联普遍很弱，两性均无强信号。
+小结：模块5 五个子分析共同表明——器官老化的主效应总体【两性稳健】(A/B/D/E 方向一致)，
+      仅 M5-C 检出个别性别特异交互，值得在讨论中单独提及；性别不改变全篇主线结论。
+
+【三、综合结论与定位】
+
+■ 核心发现(按模块)
+  1) 效度(M1)：脑自身 age gap 与脑结构高度耦合 → 脑老化钟有效(自证，非新发现)。
+  2) 特异性(M1)：外周器官→脑结构效应小(|r|≈0.05–0.11)但器官特异——不同器官各自耦合特定脑区，
+     覆盖面以 Pituitary/Kidney 最广，其余器官(唾液腺/免疫/肌肉/肾上腺等)各有其最强靶区。
+  3) 疾病图谱(M2)：器官老化主要投射到【系统性疾病】(代谢/心血管/肾/血液)，风险关联最强为
+     肠/肾上腺/肾→2 型糖尿病(OR≈1.65–1.78)；受神经退行病样本过小限制，无法稳健分出强神经特异器官。
+  4) 认知(M3)：器官→认知直接关联很弱，提示以间接影响为主。
+  5) 剂量-反应(M2-E/M3-B/M1-D)：累积极端老化负担越重，系统性疾病越多、认知越差、脑量越小——
+     全篇最稳健、最通俗的结果，且呈清晰单调剂量关系。
+  6) 中介(M4，探索)与性别(M5，敏感)：中介方向一致但极小；主效应总体不依赖性别。
+  7) 器官解离(M1×M2)：Pituitary'强脑结构耦合(r≈0.11、42 项显著) / 弱疾病关联(BH 显著 0)'，
+     与 Kidney/Adrenal'强系统性疾病(OR≈1.6–1.7) / 弱专一脑区'恰成对照——提示不同器官的蛋白
+     老化各自读出不同轴向(垂体偏神经内分泌/脑轴，肾-肾上腺偏代谢-系统)，是本研究值得强调的模式。
+
+■ 跨模块器官图谱：双重解离(把 M1'器官→脑结构'与 M2'器官→疾病'两张显著性表叠起来看)
+  按'是否耦合脑结构 × 是否关联系统性疾病'把 17 个外周器官分成四类，是本研究最凝练的一张图：
+  · 只耦合脑、不关联疾病(偏神经内分泌/脑轴)：Muscle, Pituitary
+  · 只关联疾病、结构脑上不显著(偏代谢-心血管，但见 M1 心脑轴 caveat)：Adipose, Artery, Heart, Liver, Pancreas, Stomach
+  · 两者皆强的【桥梁器官】：Adrenal, Immune, Intestine, Kidney, Lung, Salivary, Skin, Thyroid
+  · 两者皆不显著：Esophagus
+  解读(为什么这张图重要)：
+    (1) 器官老化【不是】笼统地同步拖累全身——它有明确的'轴向分工'：垂体/肌肉主要读出脑，
+        脂肪/心/肝/胰/胃主要读出代谢-心血管疾病。
+    (2) '桥梁器官'(肾/肾上腺/皮肤/唾液腺/甲状腺)【同时】耦合脑与疾病，因而正是模块4 中介分析里
+        的主力起点——只有既连脑、又连病的器官，才可能'经由脑结构'桥接到结局，逻辑闭环。
+    (3) 结合模块4 的中介比例：Brain 对结局以【直接效应】为主(中介比例仅~3%，~97% 直接)，而外周/桥梁器官更依赖'经脑结构'的间接通路(~16%)——即脑老化本身是结局的近端底物，外周老化则更像上游推手。
+    诚实边界：'只关联疾病'一类含心脑轴等已知机制，本研究仅在【结构性脑体积】上不显著(功效+测量
+              模态所限)，不否定其血管/灌注通路；四分类是描述性叠图，非因果或病理判定。
+
+■ 效应量诚实评估
+  · 最稳健：累积负担的剂量-反应(疾病数 ANOVA F≈29；认知/脑量趋势 p 达 1e-4~1e-25 量级)。
+  · 中等-可解释：器官→系统性疾病 OR 最高≈1.6–1.8(2 型糖尿病)。
+  · 偏小但高度显著：器官→脑结构偏相关 |r|≈0.05–0.11；器官→认知 |r|≈0.04–0.06。
+  · 探索性：中介间接效应 ab≈0.01–0.03(认知/糖尿病)，不宜作主要论据。
+
+■ 诚实的边界与局限
+  · 真正可分析样本远小于 44,810：脑影像子样本仅 ~3,960–5,653，是效应量小的部分原因。
+  · 神经退行病(痴呆 n=8、帕金森 n=23)样本过小，任何'神经特异性'结论都不稳健，已用≥50 口径规避。
+  · 全部为横断面关联，非因果；中介仅为统计学机制提示。
+  · 器官×疾病类别中多类仅含 1 种病，细化到该类时须谨慎(见各表 n_disease 列)。
+
+■ 报告口径
+  · 所有分析全量运行、如实报告，不因不显著而删除；完整结果均在各模块 tables/ 与 figures/。
+  · 正文不用固定'前 N 名'，而是列出效应量达阈值的全部关联，仅当达标者过少时才退回排名；
+    模块 1 外周→脑因效应普遍小，改为【逐器官】列各自最强靶区，确保每个有信号的器官都呈现。
+
+==============================================================================
+图表索引(各模块 figures/ 下 PNG；完整表格在 tables/ 下 CSV)
+==============================================================================
+[M0] F0.1_organ_gap_distributions.png; F0.2_brain_dist_classA.png; F0.2_brain_dist_classB.png; F0.2_brain_dist_classC.png; F0.3_missingness.png
+[M1] F1.1_M1A_heatmap_classA.png; F1.1_M1A_heatmap_classB.png; F1.1_M1A_heatmap_classC.png; F1.2_M1C_layer_meanabs_r.png; F1.3_M1D_dose_BrainSegVol.png; F1.3_M1D_dose_CerebralWhiteMatterVol.png; F1.3_M1D_dose_CortexVol.png; F1.3_M1D_dose_GlobalMeanThickness.png; F1.3_M1D_dose_SubCortGrayVol.png; F1.3_M1D_dose_TotalGrayVol.png
+[M2] F2.1_M2A_cohensd_heatmap.png; F2.2_M2A_OR_forest.png; F2.4_M2D_organ_category_heatmap.png; F2.5_M2E_burden_OR_forest.png; F2.6_M2E_disease_count_dose.png
+[M3] F3.1_M3A_heatmap.png; F3.2_M3B_dose_FluidIntelligence.png; F3.2_M3B_dose_NumericMemory.png; F3.2_M3B_dose_PairedAssociateLearning.png; F3.2_M3B_dose_ReactionTime.png; F3.2_M3B_dose_TowerRearranging.png; F3.2_M3B_dose_TrailMaking_Alphanumeric.png; F3.2_M3B_dose_TrailMaking_Numeric.png
+[M4] F4.1_M4_indirect_forest.png
+[M5] F5.1_M5C_interactions.png; F5.2_M5A_meanabs_r_by_sex.png
+
+(本报告为叙事版总结；逐项数值、显著性标记与完整清单以 DETAILED_RESULTS_REPORT.txt 及各 CSV 为准。)

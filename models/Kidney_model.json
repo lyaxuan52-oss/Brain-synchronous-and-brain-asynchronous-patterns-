@@ -1,0 +1,21 @@
+{
+  "organ": "Kidney",
+  "intercept": 56.782615654475414,
+  "coefficients": {
+    "olink_instance_0.bsnd": 0.019409690817430426,
+    "olink_instance_0.cyp24a1": -0.07182363396918287,
+    "olink_instance_0.itgb6": 0.11357657890174526,
+    "olink_instance_0.nphs2": -0.04623070142822851,
+    "olink_instance_0.pdzk1": 0.05643394111884015,
+    "olink_instance_0.pth1r": 0.5848491431409881,
+    "olink_instance_0.ren": 1.0102241651133488,
+    "olink_instance_0.umod": -0.307522711584155
+  },
+  "alpha": 0.0011131218467612517,
+  "n_features": 8,
+  "n_features_selected": 8,
+  "train_r2": 0.025415043999297726,
+  "test_r2": 0.026151110099656094,
+  "train_mae": 6.899941931426085,
+  "test_mae": 6.8551935895995895
+}

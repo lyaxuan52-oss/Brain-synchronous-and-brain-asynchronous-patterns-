@@ -1,0 +1,15 @@
+{
+  "organ": "Thyroid",
+  "intercept": 56.77400049338554,
+  "coefficients": {
+    "olink_instance_0.pth": 0.7851583018201214,
+    "olink_instance_0.tg": 0.1663488778549978
+  },
+  "alpha": 0.0007702188167457749,
+  "n_features": 2,
+  "n_features_selected": 2,
+  "train_r2": 0.00937208781480392,
+  "test_r2": 0.00816831019958042,
+  "train_mae": 6.982429933209709,
+  "test_mae": 6.9352004423378215
+}

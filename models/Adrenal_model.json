@@ -1,0 +1,17 @@
+{
+  "organ": "Adrenal",
+  "intercept": 56.780261190290936,
+  "coefficients": {
+    "olink_instance_0.akr1b1": -0.11547874504786328,
+    "olink_instance_0.fdx1": 0.366753116203019,
+    "olink_instance_0.gsta3": 0.43846633174870275,
+    "olink_instance_0.scarb1": -0.0756993794500067
+  },
+  "alpha": 0.0004645810190231691,
+  "n_features": 4,
+  "n_features_selected": 4,
+  "train_r2": 0.005524203354987711,
+  "test_r2": 0.005659377783313491,
+  "train_mae": 7.002167667895021,
+  "test_mae": 6.9507601717627185
+}

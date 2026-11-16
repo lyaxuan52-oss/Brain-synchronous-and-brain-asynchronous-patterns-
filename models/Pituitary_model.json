@@ -1,0 +1,23 @@
+{
+  "organ": "Pituitary",
+  "intercept": 56.76810321612341,
+  "coefficients": {
+    "olink_instance_0.cga": 0.46340303951577727,
+    "olink_instance_0.fshb": 2.939369170506161,
+    "olink_instance_0.gh1": -0.1070246592733428,
+    "olink_instance_0.gh2": -0.3808946135791987,
+    "olink_instance_0.ghrhr": -0.04122735982551508,
+    "olink_instance_0.lhb": 0.09213588024609688,
+    "olink_instance_0.nptx2": 1.8640204314840216,
+    "olink_instance_0.pomc": 0.6716423946392899,
+    "olink_instance_0.prl": -1.2864799540688496,
+    "olink_instance_0.tshb": 0.21244818840885757
+  },
+  "alpha": 0.0025048765277632056,
+  "n_features": 10,
+  "n_features_selected": 10,
+  "train_r2": 0.18416854932913818,
+  "test_r2": 0.17506059773247096,
+  "train_mae": 6.19856931271224,
+  "test_mae": 6.19759757426176
+}

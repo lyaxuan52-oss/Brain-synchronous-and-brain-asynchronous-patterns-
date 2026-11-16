@@ -1,0 +1,19 @@
+# Participant-level data must never be committed (UK Biobank terms of use)
+data/*.csv
+data/*.xlsx
+data/*.tsv
+data/*.dat
+!data/README.md
+outputs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store

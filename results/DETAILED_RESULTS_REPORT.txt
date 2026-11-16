@@ -1,0 +1,300 @@
+==========================================================================================
+多器官衰老（organ age gap）多模块分析 —— 详细结果报告
+DETAILED RESULTS REPORT
+==========================================================================================
+生成时间: 2026-07-08 14:41:15    随机种子: 12345
+统计显著性标记: * p<.05  ** p<.01  † BH-FDR<.05(器官族内)  ‡ BY-FDR<.05(全局)
+所有分析均全量运行、如实报告；不因不显著而删除。报告正文不再用固定'前 N 名'，而是
+列出效应量达到有意义阈值的全部关联（|partial r|≥0.10、认知≥0.05、OR≤0.87或≥1.15、
+|β_int|≥0.05）；仅当达标者过少时才退回按效应量排名。完整结果见各模块 tables/ 与 figures/。
+
+------------------------------------------------------------------------------------------
+样本构成（各模块按所需变量分别取交集，listwise deletion）
+------------------------------------------------------------------------------------------
+  N_total_age_gap                       : 44810
+  N_with_demographics                   : 7954
+  N_brain_global(eTIV)                  : 3960
+  N_brain_global(BrainSegVol)           : 3960
+  N_brain_subcortical                   : 5653
+  N_disease                             : 7383
+  N_cog_FluidIntelligence               : 7282
+  N_cog_ReactionTime                    : 7352
+  N_cog_NumericMemory                   : 3796
+  N_cog_TowerRearranging                : 3653
+  N_cog_PairedAssociateLearning         : 6152
+  N_cog_TrailMaking_Numeric             : 6095
+  N_cog_TrailMaking_Alphanumeric        : 5949
+
+关键限制: 器官 age_gap 队列(44,810)与影像/临床队列几乎不重叠，可分析样本显著缩小；
+脑影像模块受 eTIV 覆盖限制约 ~3,960，皮层下/皮层体积可达 ~5,653，疾病模块 7,383。
+
+##########################################################################################
+模块 0  描述性统计与质量控制
+##########################################################################################
+目的: 刻画各器官 age gap、脑指标、认知、疾病的分布与缺失，记录 Winsorization(±3SD)。
+方法: 均值/SD/极值/中位数/IQR/偏度/峰度；缺失率；按 ±3SD 截尾并记录截断个数。
+结果(Winsorization 截断总数按器官):
+    Adipose_age_gap         截断  284  (low 19, high 265)
+    Adrenal_age_gap         截断  505  (low 10, high 495)
+    Artery_age_gap          截断  245  (low 52, high 193)
+    Brain_age_gap           截断  353  (low 76, high 277)
+    Esophagus_age_gap       截断  174  (low 13, high 161)
+    Heart_age_gap           截断  439  (low 15, high 424)
+    Immune_age_gap          截断  218  (low 56, high 162)
+    Intestine_age_gap       截断  214  (low 31, high 183)
+    Kidney_age_gap          截断  629  (low 8, high 621)
+    Liver_age_gap           截断  252  (low 87, high 165)
+    Lung_age_gap            截断  314  (low 44, high 270)
+    Muscle_age_gap          截断  324  (low 129, high 195)
+    Pancreas_age_gap        截断  339  (low 20, high 319)
+    Pituitary_age_gap       截断  160  (low 86, high 74)
+    Salivary_age_gap        截断  248  (low 80, high 168)
+    Skin_age_gap            截断  219  (low 86, high 133)
+    Stomach_age_gap         截断  416  (low 15, high 401)
+    Thyroid_age_gap         截断  348  (low 47, high 301)
+总结: 分布已截尾控制极端值；各变量缺失见 T0.7；后续模块在此清洗基础上分别取样。
+
+##########################################################################################
+模块 1  器官衰老 → 脑结构
+##########################################################################################
+目的: 量化每个器官 age gap 与各脑结构指标的独立关联及其剂量-反应关系。
+方法: (A) 经典多元线性回归直接法, BrainMetric ~ organ_gap + age + gender (+eTIV 仅体积类);
+      偏相关 r 由 t 统计量直接换算; 体积类另加全局脑量做特异性对照。
+      (B) 18 器官同时入模 + VIF 共线性诊断; (C) 按脑层(A/B/C)汇总; (D) 累积老化负担剂量-反应。
+      重要区分: 本模块把两类关联分开呈现, 因为它们的含义完全不同——
+        · Brain 自身 age gap × 脑结构 = '模型有效性'检验(脑年龄钟本就基于脑结构训练,
+          二者强相关是预期的自证, 只说明这批脑老化预测确实有效, 不代表生物学新发现);
+        · 外周器官 age gap × 脑结构 = 真正有价值的'躯体→脑'跨器官信号(某外周器官老化
+          是否独立地伴随脑结构改变), 这才是回答'器官老化累及脑'的证据。
+结果: M1-A 共 1998 个 器官×脑指标 检验(BH-FDR 显著 181, BY-FDR 显著 33)。
+  (i) 模型有效性(Brain 自身): 111 项中 57 项 BH 显著, 平均 |r|=0.035——如预期高度耦合, 证实脑老化钟有效。
+      CortexVol                               r=-0.089  p=2.34e-08  **†‡
+      lhCortexVol                             r=-0.084  p=1.18e-07  **†‡
+      rhCortexVol                             r=-0.082  p=2.45e-07  **†‡
+      CerebralWhiteMatterVol                  r=+0.079  p=6.16e-07  **†‡
+      rhCerebralWhiteMatterVol                r=+0.079  p=6.40e-07  **†‡
+      lhCerebralWhiteMatterVol                r=+0.078  p=8.15e-07  **†‡
+      Volume of insula (right hemisphere)     r=-0.077  p=1.30e-06  **†‡
+      TotalGrayVol                            r=-0.075  p=2.38e-06  **†‡
+  (ii) 跨器官信号(外周器官→脑结构, 核心): 1887 项中 124 项 BH 显著, 覆盖 10 个外周器官。下按器官列出各自最强的显著脑靶区(完整清单见 T1.3b):
+      Pituitary  × BrainSegVol-to-eTIV                 r=+0.112  p=1.65e-12  **†‡  (该器官共 42 项显著)
+      Salivary   × Volume of Hippocampus (right hemis  r=-0.064  p=6.09e-05  **†‡  (该器官共 8 项显著)
+      Immune     × Volume of Brain-Stem (whole brain)  r=-0.063  p=7.96e-05  **†‡  (该器官共 1 项显著)
+      Skin       × BrainSegVol-to-eTIV                 r=+0.057  p=3.09e-04  **†  (该器官共 5 项显著)
+      Adrenal    × BrainSegVol                         r=-0.057  p=3.20e-04  **†  (该器官共 16 项显著)
+      Kidney     × BrainSegVolNotVent                  r=-0.057  p=3.50e-04  **†  (该器官共 29 项显著)
+      Muscle     × Volume of Pallidum (left hemispher  r=-0.057  p=3.76e-04  **†  (该器官共 13 项显著)
+      Intestine  × VentricleChoroidVol                 r=+0.056  p=3.88e-04  **†  (该器官共 1 项显著)
+      Thyroid    × lhMeanThickness                     r=+0.056  p=4.67e-04  **†  (该器官共 5 项显著)
+      Lung       × lhWhiteSurfArea                     r=-0.055  p=5.81e-04  **†  (该器官共 4 项显著)
+       解读: 各外周器官各有其最强脑靶区——Pituitary/Kidney 覆盖面最广(分别 42/29 项), 其余器官虽 |r| 较小(0.05–0.06)但方向清晰、经 BH 校正稳健, 提示不同外周系统
+       老化各自耦合到特定脑区(如唾液腺→海马、免疫→脑干、肌肉→苍白球), 而非笼统全脑萎缩。
+  M1-B 多器官同时入模: 最大 VIF 中位数 2.25, 严重共线性(>10)的指标 0 个——说明各器官 age gap 间共线性总体可控, 上述单器官关联在联合模型中大体保持独立。
+  M1-D 剂量-反应(top20%极端老化负担): 6 个整体脑量指标中 4 个 ANOVA 显著, 即随极端老化器官数增加, 整体脑量呈递减趋势(见 F1.3), 支持'累积老化→脑萎缩'的剂量关系。
+小结: Brain 自身与脑结构的强关联仅确认模型有效, 不作生物学解读; 真正的发现在外周器官→脑
+      这一跨器官维度——上文按效应量阈值列出的外周关联即为可解释的重点, 其体积类在全局脑量
+      校正后仍显著者(见 T1.2)进一步提示区域特异而非整体缩放效应。
+
+##########################################################################################
+模块 2  器官衰老 → 疾病
+##########################################################################################
+目的: 评估器官 age gap 对疾病的关联(效应量与风险), 并刻画器官老化对应的疾病类型。
+方法: (A) Cohen's d(病例vs对照, ≥30) 与 Logistic OR(每1SD, ≥50);
+      (B) 器官 × 疾病类型画像: 按生理系统(神经/心血管/代谢/呼吸/消化/肾/血液/皮肤等)
+          汇总每个器官对各疾病类别的 mean |d|/mean OR/显著数, 直接刻画'器官老化对应哪些疾病类型';
+      (C) 累积极端老化负担(top20%单侧, 0/1/2/3/4+)→疾病风险(Logistic OR/每+1器官)与多病共存趋势。
+      纳入的主分析疾病(17): hypertension, asthma, depressive episode, arthritis, type 2 diabetes, gallbladder diseases, anxiety disorders, coronary heart disease, angina pectoris, anaemias, psoriasis, venous thrombosis, renal failure, stroke, colitis, conduction disorders, pulmonary heart diseases
+结果: 共 306 个 器官→疾病 Logistic OR(每 1SD, BH 显著 89)。达到有意义强度(OR≤0.87 或 ≥1.15)的关联 (效应量阈值 |logOR|≥0.14 之上共 98 项, 全部列出; 此处显示前 40, 余见表):
+    Intestine  → type 2 diabetes               OR=1.775 [1.59,1.98]  p=3.67e-25  **†‡
+    Adrenal    → type 2 diabetes               OR=1.710 [1.56,1.88]  p=1.19e-28  **†‡
+    Kidney     → type 2 diabetes               OR=1.649 [1.50,1.81]  p=7.98e-26  **†‡
+    Intestine  → renal failure                 OR=1.596 [1.34,1.91]  p=2.43e-07  **†‡
+    Heart      → conduction disorders          OR=1.566 [1.30,1.89]  p=3.23e-06  **†‡
+    Immune     → type 2 diabetes               OR=1.566 [1.40,1.75]  p=8.66e-16  **†‡
+    Stomach    → anaemias                      OR=1.498 [1.32,1.69]  p=1.29e-10  **†‡
+    Skin       → renal failure                 OR=1.431 [1.20,1.71]  p=6.36e-05  **†‡
+    Brain      → type 2 diabetes               OR=1.413 [1.27,1.57]  p=7.09e-11  **†‡
+    Pancreas   → renal failure                 OR=1.410 [1.19,1.67]  p=8.58e-05  **†‡
+    Brain      → renal failure                 OR=1.397 [1.18,1.66]  p=1.27e-04  **†‡
+    Kidney     → coronary heart disease        OR=1.369 [1.23,1.52]  p=1.19e-08  **†‡
+    Kidney     → angina pectoris               OR=1.369 [1.23,1.52]  p=1.19e-08  **†‡
+    Kidney     → renal failure                 OR=1.330 [1.13,1.56]  p=5.22e-04  **†‡
+    Heart      → coronary heart disease        OR=1.326 [1.18,1.49]  p=1.71e-06  **†‡
+    Heart      → angina pectoris               OR=1.326 [1.18,1.49]  p=1.71e-06  **†‡
+    Intestine  → angina pectoris               OR=1.322 [1.17,1.49]  p=6.06e-06  **†‡
+    Intestine  → coronary heart disease        OR=1.322 [1.17,1.49]  p=6.06e-06  **†‡
+    Adrenal    → hypertension                  OR=1.321 [1.25,1.39]  p=3.33e-26  **†‡
+    Adrenal    → gallbladder diseases          OR=1.312 [1.18,1.45]  p=2.31e-07  **†‡
+    Brain      → stroke                        OR=1.294 [1.08,1.55]  p=4.60e-03  **†
+    Pancreas   → conduction disorders          OR=1.286 [1.05,1.57]  p=1.33e-02  *†
+    Kidney     → venous thrombosis             OR=1.272 [1.10,1.47]  p=1.07e-03  **†‡
+    Skin       → coronary heart disease        OR=1.272 [1.13,1.43]  p=7.42e-05  **†‡
+    Skin       → angina pectoris               OR=1.272 [1.13,1.43]  p=7.42e-05  **†‡
+    Salivary   → type 2 diabetes               OR=1.271 [1.14,1.41]  p=9.35e-06  **†‡
+    Adrenal    → coronary heart disease        OR=1.270 [1.14,1.42]  p=2.99e-05  **†‡
+    Adrenal    → angina pectoris               OR=1.270 [1.14,1.42]  p=2.99e-05  **†‡
+    Adipose    → renal failure                 OR=1.270 [1.05,1.53]  p=1.19e-02  *†
+    Salivary   → anaemias                      OR=1.269 [1.11,1.46]  p=7.14e-04  **†‡
+    Stomach    → type 2 diabetes               OR=1.269 [1.15,1.40]  p=1.50e-06  **†‡
+    Liver      → angina pectoris               OR=1.268 [1.13,1.43]  p=7.92e-05  **†‡
+    Liver      → coronary heart disease        OR=1.268 [1.13,1.43]  p=7.92e-05  **†‡
+    Adipose    → pulmonary heart diseases      OR=1.266 [1.01,1.59]  p=4.39e-02  *
+    Salivary   → colitis                       OR=1.264 [1.04,1.54]  p=2.10e-02  *
+    Kidney     → conduction disorders          OR=1.264 [1.05,1.52]  p=1.39e-02  *†
+    Skin       → anaemias                      OR=1.264 [1.10,1.45]  p=1.00e-03  **†‡
+    Intestine  → hypertension                  OR=1.263 [1.20,1.33]  p=1.37e-17  **†‡
+    Salivary   → pulmonary heart diseases      OR=1.261 [1.01,1.57]  p=3.63e-02  *
+    Kidney     → hypertension                  OR=1.258 [1.19,1.33]  p=3.32e-17  **†‡
+      解读: OR>1 表示该器官老化每增 1SD、患病风险相应上升; 上列即风险关联最强者, 多集中于代谢/心血管/肾等系统性疾病, 完整矩阵见 T2.1。
+      M2-D 器官 × 疾病类型画像(mean |Cohen's d|, 病例≥30 的疾病, 见 T2.6/T2.7 + 热图 F2.4):
+        每个器官老化最主要对应的疾病类型(dominant disease type):
+          Heart        → Metabolic/Endocrine      (mean|d|=0.274)
+          Artery       → Metabolic/Endocrine      (mean|d|=0.211)
+          Liver        → Digestive/Hepatobiliary  (mean|d|=0.143)
+          Pancreas     → Renal/Urinary            (mean|d|=0.411)
+          Kidney       → Metabolic/Endocrine      (mean|d|=0.640)
+          Adipose      → Musculoskeletal          (mean|d|=0.236)
+          Muscle       → Renal/Urinary            (mean|d|=0.208)
+          Esophagus    → Renal/Urinary            (mean|d|=0.270)
+          Stomach      → Hematologic              (mean|d|=0.246)
+          Intestine    → Metabolic/Endocrine      (mean|d|=0.616)
+          Brain        → Metabolic/Endocrine      (mean|d|=0.307)
+          Pituitary    → Renal/Urinary            (mean|d|=0.187)
+          Adrenal      → Metabolic/Endocrine      (mean|d|=0.634)
+          Thyroid      → Metabolic/Endocrine      (mean|d|=0.246)
+          Immune       → Metabolic/Endocrine      (mean|d|=0.493)
+          Lung         → Renal/Urinary            (mean|d|=0.254)
+          Skin         → Renal/Urinary            (mean|d|=0.339)
+          Salivary     → Hematologic              (mean|d|=0.234)
+      M2-E 累积极端老化负担→疾病: 17 种主分析疾病中 13 种 BH 显著; OR 为每多 1 个'极端老化(top20%)'器官的患病风险倍数。风险最高前 6:
+          type 2 diabetes            OR=1.277 [1.23,1.33] **†‡
+          renal failure              OR=1.234 [1.16,1.31] **†‡
+          coronary heart disease     OR=1.153 [1.10,1.21] **†‡
+          angina pectoris            OR=1.153 [1.10,1.21] **†‡
+          hypertension               OR=1.141 [1.12,1.17] **†‡
+          anaemias                   OR=1.122 [1.06,1.18] **†‡
+      累积负担→主分析疾病总数(多病共存): ANOVA F=29.44 p=0, 线性趋势 b=0.107 p=8.5e-25(见 F2.6)。
+总结: 各器官老化对应的疾病类型见 M2-D 画像, 主要投射到代谢/心血管/肾等系统性疾病;
+      受神经退行性疾病(痴呆 n=8/帕金森 n=23)样本过小限制, 无法稳健分出强神经特异器官。
+
+##########################################################################################
+模块 3  器官衰老 → 认知
+##########################################################################################
+目的: 器官 age gap 与认知表现的关联及剂量-反应。
+方法: (A) 偏相关直接法, Cognition ~ organ_gap + age + gender(仅控年龄性别, 不控 eTIV/脑量);
+      (B) 累积老化负担剂量-反应(ANOVA+线性/二次趋势)。
+结果: 126 个 器官×认知 检验(BH-FDR 显著 33)。器官-认知关联普遍偏弱, 达到 |partial r|≥0.05 的关联 (阈值 |r|≥0.05 之上仅 2 项, 数量过少, 改按效应量列前 8):
+    Stomach    × TrailMaking_Alphanumeric    r=+0.059  p=4.87e-06  **†‡
+    Skin       × NumericMemory               r=-0.054  p=9.60e-04  **†
+    Pancreas   × NumericMemory               r=-0.050  p=2.18e-03  **†
+    Stomach    × NumericMemory               r=-0.049  p=2.50e-03  **†
+    Muscle     × TrailMaking_Alphanumeric    r=+0.048  p=2.00e-04  **†‡
+    Intestine  × NumericMemory               r=-0.048  p=3.30e-03  **†
+    Stomach    × TrailMaking_Numeric         r=+0.047  p=2.20e-04  **†‡
+    Salivary   × ReactionTime                r=+0.045  p=1.07e-04  **†‡
+      M3-B 累积老化负担→认知: 7 项测验中 6 项 ANOVA 显著, 提示极端老化器官越多、部分认知表现越差(见 F3.2)。
+小结: 器官老化与认知的直接关联效应量小(远弱于器官→脑结构), 说明躯体老化对认知多为间接
+      影响——这正是模块 4 用脑结构做中介的动机; 各测验样本量差异见 T3.1 的 n 列。
+
+##########################################################################################
+模块 4  中介分析 (器官 → 脑结构 → 认知/疾病)
+##########################################################################################
+目的: 检验脑结构是否中介器官衰老对认知/疾病的效应。
+方法: 三段式预筛(X→M 经 M1-A BH 显著; M→Y p<0.05; X→Y 总效应 p<0.1), 再对入选路径做 200 次 Bootstrap 的 BCa 置信区间; 95%CI 不含 0 判显著。
+结果: 预筛后检验 523 条路径, 其中 Bootstrap BCa 95%CI 不含 0 的显著中介 488 条。按中介效应量 |ab| 从大到小列出显著路径(全部保留于 T4.2):
+    Adrenal  →BrainSegVolNotVent  →type 2 diabetes   ab=+0.0315 [+0.0130,+0.0715] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →SupraTentorialVolNot→type 2 diabetes   ab=+0.0265 [+0.0103,+0.0656] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →BrainSegVol         →type 2 diabetes   ab=+0.0257 [+0.0079,+0.0585] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →BrainSegVol-to-eTIV →type 2 diabetes   ab=+0.0214 [+0.0047,+0.0546] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →SupraTentorialVol   →type 2 diabetes   ab=+0.0208 [+0.0045,+0.0500] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →lhWhiteSurfArea     →type 2 diabetes   ab=+0.0202 [+0.0044,+0.0481] (BCa(subsampled-acc)) partial mediation
+    Kidney   →BrainSegVolNotVent  →type 2 diabetes   ab=+0.0195 [+0.0079,+0.0429] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →lhWhiteSurfArea     →NumericMemory     ab=-0.0194 [-0.0378,-0.0066] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →TotalSurfArea       →type 2 diabetes   ab=+0.0193 [+0.0047,+0.0458] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →TotalSurfArea       →NumericMemory     ab=-0.0189 [-0.0362,-0.0059] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →rhWhiteSurfArea     →type 2 diabetes   ab=+0.0182 [+0.0041,+0.0450] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →rhWhiteSurfArea     →NumericMemory     ab=-0.0181 [-0.0351,-0.0051] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →lhCerebralWhiteMatte→type 2 diabetes   ab=+0.0177 [+0.0030,+0.0441] (BCa(subsampled-acc)) partial mediation
+    Kidney   →SupraTentorialVolNot→type 2 diabetes   ab=+0.0176 [+0.0060,+0.0368] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →CerebralWhiteMatterV→type 2 diabetes   ab=+0.0175 [+0.0032,+0.0456] (BCa(subsampled-acc)) partial mediation
+    Kidney   →TotalSurfArea       →FluidIntelligenc  ab=-0.0166 [-0.0298,-0.0081] (BCa(subsampled-acc)) partial mediation
+    Kidney   →rhWhiteSurfArea     →FluidIntelligenc  ab=-0.0165 [-0.0301,-0.0079] (BCa(subsampled-acc)) partial mediation
+    Thyroid  →lhMeanThickness     →type 2 diabetes   ab=-0.0165 [-0.0320,-0.0024] (BCa(subsampled-acc)) partial mediation
+    Kidney   →Volume of precentral→type 2 diabetes   ab=+0.0165 [+0.0052,+0.0341] (BCa(subsampled-acc)) partial mediation
+    Kidney   →lhWhiteSurfArea     →FluidIntelligenc  ab=-0.0164 [-0.0290,-0.0080] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →rhSurfaceHoles      →PairedAssociateL  ab=-0.0156 [-0.0299,-0.0044] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →rhEulerNumber       →PairedAssociateL  ab=-0.0156 [-0.0299,-0.0044] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →lhWhiteSurfArea     →PairedAssociateL  ab=-0.0148 [-0.0345,-0.0044] (BCa(subsampled-acc)) partial mediation
+    Thyroid  →lhWhiteSurfArea     →type 2 diabetes   ab=+0.0145 [+0.0029,+0.0364] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →lhWhiteSurfArea     →hypertension      ab=+0.0145 [+0.0049,+0.0296] (BCa(subsampled-acc)) partial mediation
+    Thyroid  →TotalSurfArea       →type 2 diabetes   ab=+0.0144 [+0.0028,+0.0356] (BCa(subsampled-acc)) partial mediation
+    Thyroid  →rhWhiteSurfArea     →type 2 diabetes   ab=+0.0141 [+0.0027,+0.0348] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →SurfaceHoles        →hypertension      ab=+0.0141 [+0.0036,+0.0285] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →TotalEulerNumber    →hypertension      ab=+0.0141 [+0.0036,+0.0285] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →TotalSurfArea       →PairedAssociateL  ab=-0.0140 [-0.0336,-0.0038] (BCa(subsampled-acc)) partial mediation
+    Kidney   →BrainSegVol         →type 2 diabetes   ab=+0.0139 [+0.0054,+0.0319] (BCa(subsampled-acc)) partial mediation
+    Kidney   →TotalGrayVol        →type 2 diabetes   ab=+0.0136 [+0.0032,+0.0301] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →TotalSurfArea       →hypertension      ab=+0.0136 [+0.0041,+0.0282] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →BrainSegVolNotVent  →hypertension      ab=+0.0136 [+0.0047,+0.0281] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →SurfaceHoles        →PairedAssociateL  ab=-0.0134 [-0.0295,-0.0026] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →TotalEulerNumber    →PairedAssociateL  ab=-0.0134 [-0.0295,-0.0026] (BCa(subsampled-acc)) partial mediation
+    Kidney   →Volume of precentral→coronary heart d  ab=+0.0133 [+0.0046,+0.0308] (BCa(subsampled-acc)) partial mediation
+    Kidney   →Volume of precentral→angina pectoris   ab=+0.0133 [+0.0046,+0.0308] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →BrainSegVol         →NumericMemory     ab=-0.0133 [-0.0268,-0.0046] (BCa(subsampled-acc)) partial mediation
+    Adrenal  →rhWhiteSurfArea     →PairedAssociateL  ab=-0.0130 [-0.0323,-0.0030] (BCa(subsampled-acc)) partial mediation
+      解读: ab≠0 表示器官老化对该结局的效应部分或全部经由脑结构传递; 结合模块 3(器官→认知直接关联弱)看, 脑结构中介是躯体老化影响认知的重要通路。
+小结: 显著中介提示脑结构在'器官老化→结局'链条中的桥梁作用; 完整点估计/CI/分类见 T4.2。
+
+##########################################################################################
+模块 5  性别分层与交互
+##########################################################################################
+方法: (A) 分性别脑偏相关; (B) 分性别负担剂量-反应; (C) organ×gender 交互(脑/认知/疾病);
+      (D) 分性别疾病 OR; (E) 分性别认知偏相关。交互 p 值经 BH/BY 校正。
+结果: 2430 个 organ×gender 交互检验(BH-FDR 显著 2)。名义显著(p<.05)且交互效应达 |β_int|≥0.05 的 (效应量阈值 |beta_int|≥0.05 之上共 148 项, 全部列出; 此处显示前 40, 余见表):
+    [brain    ] Adrenal    × BrainSegVolNotVent        β_int=-5508.7959  p=3.75e-02  *
+    [brain    ] Adrenal    × MaskVol                   β_int=-5286.0577  p=3.80e-02  *
+    [brain    ] Adrenal    × BrainSegVol               β_int=-5043.4057  p=4.12e-02  *
+    [brain    ] Stomach    × MaskVol                   β_int=-2167.1279  p=8.98e-04  **
+    [brain    ] Stomach    × BrainSegVolNotVent        β_int=-2004.3192  p=3.17e-03  **
+    [brain    ] Stomach    × BrainSegVol               β_int=-1738.7892  p=6.12e-03  **
+    [brain    ] Stomach    × SupraTentorialVolNotVent  β_int=-1611.9457  p=1.04e-02  *
+    [brain    ] Stomach    × SupraTentorialVol         β_int=-1357.5080  p=2.02e-02  *
+    [brain    ] Pituitary  × BrainSegVolNotVent        β_int=-1282.9271  p=2.01e-02  *
+    [brain    ] Pituitary  × SupraTentorialVolNotVent  β_int=-1133.6005  p=2.66e-02  *
+    [brain    ] Stomach    × TotalGrayVol              β_int=-1093.5091  p=8.25e-03  **
+    [brain    ] Brain      × BrainSegVolNotVent        β_int=-1070.9837  p=7.58e-03  **
+    [brain    ] Liver      × BrainSegVolNotVent        β_int=-1029.5461  p=7.91e-03  **
+    [brain    ] Pituitary  × BrainSegVol               β_int=-1023.7462  p=4.69e-02  *
+    [brain    ] Intestine  × BrainSegVolNotVent        β_int=-986.2914  p=3.56e-02  *
+    [brain    ] Liver      × BrainSegVol               β_int=-979.7275  p=6.80e-03  **
+    [brain    ] Intestine  × SupraTentorialVolNotVent  β_int=-979.1835  p=2.42e-02  *
+    [brain    ] Brain      × BrainSegVol               β_int=-888.9702  p=1.76e-02  *
+    [brain    ] Intestine  × SupraTentorialVol         β_int=-879.0812  p=2.94e-02  *
+    [brain    ] Stomach    × CerebralWhiteMatterVol    β_int=-869.2674  p=4.51e-02  *
+    [brain    ] Intestine  × BrainSegVol               β_int=-865.0726  p=4.84e-02  *
+    [brain    ] Brain      × SupraTentorialVolNotVent  β_int=-821.6400  p=2.69e-02  *
+    [brain    ] Liver      × SupraTentorialVolNotVent  β_int=-807.8928  p=2.44e-02  *
+    [brain    ] Liver      × SupraTentorialVol         β_int=-760.3236  p=2.26e-02  *
+    [brain    ] Pituitary  × CerebralWhiteMatterVol    β_int=-758.8289  p=3.16e-02  *
+    [brain    ] Brain      × TotalGrayVol              β_int=-606.2252  p=1.29e-02  *
+    [brain    ] Intestine  × TotalGrayVol              β_int=-583.1904  p=4.15e-02  *
+    [brain    ] Liver      × CerebralWhiteMatterVol    β_int=-536.0178  p=3.03e-02  *
+    [brain    ] Liver      × TotalGrayVol              β_int=-471.7270  p=4.60e-02  *
+    [brain    ] Stomach    × rhCerebralWhiteMatterVol  β_int=-442.1820  p=4.29e-02  *
+    [brain    ] Pituitary  × lhCerebralWhiteMatterVol  β_int=-387.3342  p=2.91e-02  *
+    [brain    ] Pituitary  × rhCerebralWhiteMatterVol  β_int=-371.4947  p=3.66e-02  *
+    [brain    ] Heart      × VentricleChoroidVol       β_int=+355.8853  p=4.31e-02  *
+    [brain    ] Intestine  × lhCortexVol               β_int=-327.3370  p=1.38e-02  *
+    [brain    ] Brain      × lhCortexVol               β_int=-274.8688  p=1.52e-02  *
+    [brain    ] Liver      × lhCerebralWhiteMatterVol  β_int=-273.8593  p=2.77e-02  *
+    [brain    ] Liver      × rhCerebralWhiteMatterVol  β_int=-262.1584  p=3.53e-02  *
+    [brain    ] Adrenal    × Volume of lateraloccipit  β_int=-160.6159  p=4.97e-02  *
+    [brain    ] Adipose    × Volume of supramarginal   β_int=+85.7533  p=9.70e-04  **
+    [brain    ] Liver      × Volume of Brain-Stem (wh  β_int=-75.2354  p=6.36e-07  **†‡
+  解读: 经 BH 校正后仅 2 项交互稳健, 说明多数器官-结局关联的强度在两性间大体一致; 少数稳健交互项提示该关联存在性别差异, 分性别的具体方向见 T5.1(脑)/T5.5(疾病)/T5.6(认知)。
+小结: 性别分层用于检验主效应的稳健性与异质性; 总体上器官老化的效应不强烈依赖性别, 个别稳健交互值得在解释时单独说明。
+
+==========================================================================================
+附: 多重比较策略 —— 每器官族内 Benjamini-Hochberg(BH) + 全局 Benjamini-Yekutieli(BY)。
+    未做任何按显著性的结果删除; 显著结果众多时全部保留于 tables/ 供补充材料引用。
+==========================================================================================

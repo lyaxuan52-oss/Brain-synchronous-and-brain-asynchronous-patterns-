@@ -1,0 +1,112 @@
+metric,clean,source,klass,type,control_eTIV
+BrainSegVol,BrainSegVol,global,A,volume,True
+BrainSegVolNotVent,BrainSegVolNotVent,global,A,volume,True
+VentricleChoroidVol,VentricleChoroidVol,global,A,volume,True
+lhCortexVol,lhCortexVol,global,A,volume,True
+rhCortexVol,rhCortexVol,global,A,volume,True
+CortexVol,CortexVol,global,A,volume,True
+lhCerebralWhiteMatterVol,lhCerebralWhiteMatterVol,global,A,volume,True
+rhCerebralWhiteMatterVol,rhCerebralWhiteMatterVol,global,A,volume,True
+CerebralWhiteMatterVol,CerebralWhiteMatterVol,global,A,volume,True
+SubCortGrayVol,SubCortGrayVol,global,A,volume,True
+TotalGrayVol,TotalGrayVol,global,A,volume,True
+SupraTentorialVol,SupraTentorialVol,global,A,volume,True
+SupraTentorialVolNotVent,SupraTentorialVolNotVent,global,A,volume,True
+MaskVol,MaskVol,global,A,volume,True
+BrainSegVol-to-eTIV,BrainSegVol-to-eTIV,global,A,ratio,False
+MaskVol-to-eTIV,MaskVol-to-eTIV,global,A,ratio,False
+lhSurfaceHoles,lhSurfaceHoles,global,A,topology,False
+rhSurfaceHoles,rhSurfaceHoles,global,A,topology,False
+SurfaceHoles,SurfaceHoles,global,A,topology,False
+lhWhiteSurfArea,lhWhiteSurfArea,global,A,area,False
+rhWhiteSurfArea,rhWhiteSurfArea,global,A,area,False
+lhMeanThickness,lhMeanThickness,global,A,thickness,False
+rhMeanThickness,rhMeanThickness,global,A,thickness,False
+GlobalMeanThickness,GlobalMeanThickness,global,A,thickness,False
+TotalSurfArea,TotalSurfArea,global,A,area,False
+lhEulerNumber,lhEulerNumber,global,A,topology,False
+rhEulerNumber,rhEulerNumber,global,A,topology,False
+TotalEulerNumber,TotalEulerNumber,global,A,topology,False
+lhMeanFoldInd,lhMeanFoldInd,global,A,topology,False
+rhMeanFoldInd,rhMeanFoldInd,global,A,topology,False
+GlobalFoldInd,GlobalFoldInd,global,A,topology,False
+lhMeanCurvInd,lhMeanCurvInd,global,A,topology,False
+rhMeanCurvInd,rhMeanCurvInd,global,A,topology,False
+GlobalCurvInd,GlobalCurvInd,global,A,topology,False
+Volume of Thalamus-Proper (left hemisphere),Volume of Thalamus-Proper (left hemisphere),subcort,B,volume,True
+Volume of Caudate (left hemisphere),Volume of Caudate (left hemisphere),subcort,B,volume,True
+Volume of Putamen (left hemisphere),Volume of Putamen (left hemisphere),subcort,B,volume,True
+Volume of Pallidum (left hemisphere),Volume of Pallidum (left hemisphere),subcort,B,volume,True
+Volume of Brain-Stem (whole brain),Volume of Brain-Stem (whole brain),subcort,B,volume,True
+Volume of Hippocampus (left hemisphere),Volume of Hippocampus (left hemisphere),subcort,B,volume,True
+Volume of Amygdala (left hemisphere),Volume of Amygdala (left hemisphere),subcort,B,volume,True
+Volume of Accumbens-area (left hemisphere),Volume of Accumbens-area (left hemisphere),subcort,B,volume,True
+Volume of Thalamus-Proper (right hemisphere),Volume of Thalamus-Proper (right hemisphere),subcort,B,volume,True
+Volume of Caudate (right hemisphere),Volume of Caudate (right hemisphere),subcort,B,volume,True
+Volume of Putamen (right hemisphere),Volume of Putamen (right hemisphere),subcort,B,volume,True
+Volume of Pallidum (right hemisphere),Volume of Pallidum (right hemisphere),subcort,B,volume,True
+Volume of Hippocampus (right hemisphere),Volume of Hippocampus (right hemisphere),subcort,B,volume,True
+Volume of Amygdala (right hemisphere),Volume of Amygdala (right hemisphere),subcort,B,volume,True
+Volume of Accumbens-area (right hemisphere),Volume of Accumbens-area (right hemisphere),subcort,B,volume,True
+Volume of caudalanteriorcingulate (left hemisphere),Volume of caudalanteriorcingulate (left hemisphere),cortex,C,volume,True
+Volume of caudalanteriorcingulate (right hemisphere),Volume of caudalanteriorcingulate (right hemisphere),cortex,C,volume,True
+Volume of caudalmiddlefrontal (left hemisphere),Volume of caudalmiddlefrontal (left hemisphere),cortex,C,volume,True
+Volume of caudalmiddlefrontal (right hemisphere),Volume of caudalmiddlefrontal (right hemisphere),cortex,C,volume,True
+Volume of cuneus (left hemisphere),Volume of cuneus (left hemisphere),cortex,C,volume,True
+Volume of cuneus (right hemisphere),Volume of cuneus (right hemisphere),cortex,C,volume,True
+Volume of entorhinal (left hemisphere),Volume of entorhinal (left hemisphere),cortex,C,volume,True
+Volume of entorhinal (right hemisphere),Volume of entorhinal (right hemisphere),cortex,C,volume,True
+Volume of fusiform (left hemisphere),Volume of fusiform (left hemisphere),cortex,C,volume,True
+Volume of fusiform (right hemisphere),Volume of fusiform (right hemisphere),cortex,C,volume,True
+Volume of inferiorparietal (left hemisphere),Volume of inferiorparietal (left hemisphere),cortex,C,volume,True
+Volume of inferiorparietal (right hemisphere),Volume of inferiorparietal (right hemisphere),cortex,C,volume,True
+Volume of inferiortemporal (left hemisphere),Volume of inferiortemporal (left hemisphere),cortex,C,volume,True
+Volume of inferiortemporal (right hemisphere),Volume of inferiortemporal (right hemisphere),cortex,C,volume,True
+Volume of insula (left hemisphere),Volume of insula (left hemisphere),cortex,C,volume,True
+Volume of insula (right hemisphere),Volume of insula (right hemisphere),cortex,C,volume,True
+Volume of isthmuscingulate (left hemisphere),Volume of isthmuscingulate (left hemisphere),cortex,C,volume,True
+Volume of isthmuscingulate (right hemisphere),Volume of isthmuscingulate (right hemisphere),cortex,C,volume,True
+Volume of lateraloccipital (left hemisphere),Volume of lateraloccipital (left hemisphere),cortex,C,volume,True
+Volume of lateraloccipital (right hemisphere),Volume of lateraloccipital (right hemisphere),cortex,C,volume,True
+Volume of lateralorbitofrontal (left hemisphere),Volume of lateralorbitofrontal (left hemisphere),cortex,C,volume,True
+Volume of lateralorbitofrontal (right hemisphere),Volume of lateralorbitofrontal (right hemisphere),cortex,C,volume,True
+Volume of lingual (left hemisphere),Volume of lingual (left hemisphere),cortex,C,volume,True
+Volume of lingual (right hemisphere),Volume of lingual (right hemisphere),cortex,C,volume,True
+Volume of medialorbitofrontal (left hemisphere),Volume of medialorbitofrontal (left hemisphere),cortex,C,volume,True
+Volume of medialorbitofrontal (right hemisphere),Volume of medialorbitofrontal (right hemisphere),cortex,C,volume,True
+Volume of middletemporal (left hemisphere),Volume of middletemporal (left hemisphere),cortex,C,volume,True
+Volume of middletemporal (right hemisphere),Volume of middletemporal (right hemisphere),cortex,C,volume,True
+Volume of paracentral (left hemisphere),Volume of paracentral (left hemisphere),cortex,C,volume,True
+Volume of paracentral (right hemisphere),Volume of paracentral (right hemisphere),cortex,C,volume,True
+Volume of parahippocampal (left hemisphere),Volume of parahippocampal (left hemisphere),cortex,C,volume,True
+Volume of parahippocampal (right hemisphere),Volume of parahippocampal (right hemisphere),cortex,C,volume,True
+Volume of parsopercularis (left hemisphere),Volume of parsopercularis (left hemisphere),cortex,C,volume,True
+Volume of parsopercularis (right hemisphere),Volume of parsopercularis (right hemisphere),cortex,C,volume,True
+Volume of parsorbitalis (left hemisphere),Volume of parsorbitalis (left hemisphere),cortex,C,volume,True
+Volume of parsorbitalis (right hemisphere),Volume of parsorbitalis (right hemisphere),cortex,C,volume,True
+Volume of parstriangularis (left hemisphere),Volume of parstriangularis (left hemisphere),cortex,C,volume,True
+Volume of parstriangularis (right hemisphere),Volume of parstriangularis (right hemisphere),cortex,C,volume,True
+Volume of pericalcarine (left hemisphere),Volume of pericalcarine (left hemisphere),cortex,C,volume,True
+Volume of pericalcarine (right hemisphere),Volume of pericalcarine (right hemisphere),cortex,C,volume,True
+Volume of postcentral (left hemisphere),Volume of postcentral (left hemisphere),cortex,C,volume,True
+Volume of postcentral (right hemisphere),Volume of postcentral (right hemisphere),cortex,C,volume,True
+Volume of posteriorcingulate (left hemisphere),Volume of posteriorcingulate (left hemisphere),cortex,C,volume,True
+Volume of posteriorcingulate (right hemisphere),Volume of posteriorcingulate (right hemisphere),cortex,C,volume,True
+Volume of precentral (left hemisphere),Volume of precentral (left hemisphere),cortex,C,volume,True
+Volume of precentral (right hemisphere),Volume of precentral (right hemisphere),cortex,C,volume,True
+Volume of precuneus (left hemisphere),Volume of precuneus (left hemisphere),cortex,C,volume,True
+Volume of precuneus (right hemisphere),Volume of precuneus (right hemisphere),cortex,C,volume,True
+Volume of rostralanteriorcingulate (left hemisphere),Volume of rostralanteriorcingulate (left hemisphere),cortex,C,volume,True
+Volume of rostralanteriorcingulate (right hemisphere),Volume of rostralanteriorcingulate (right hemisphere),cortex,C,volume,True
+Volume of rostralmiddlefrontal (left hemisphere),Volume of rostralmiddlefrontal (left hemisphere),cortex,C,volume,True
+Volume of rostralmiddlefrontal (right hemisphere),Volume of rostralmiddlefrontal (right hemisphere),cortex,C,volume,True
+Volume of superiorfrontal (left hemisphere),Volume of superiorfrontal (left hemisphere),cortex,C,volume,True
+Volume of superiorfrontal (right hemisphere),Volume of superiorfrontal (right hemisphere),cortex,C,volume,True
+Volume of superiorparietal (left hemisphere),Volume of superiorparietal (left hemisphere),cortex,C,volume,True
+Volume of superiorparietal (right hemisphere),Volume of superiorparietal (right hemisphere),cortex,C,volume,True
+Volume of superiortemporal (left hemisphere),Volume of superiortemporal (left hemisphere),cortex,C,volume,True
+Volume of superiortemporal (right hemisphere),Volume of superiortemporal (right hemisphere),cortex,C,volume,True
+Volume of supramarginal (left hemisphere),Volume of supramarginal (left hemisphere),cortex,C,volume,True
+Volume of supramarginal (right hemisphere),Volume of supramarginal (right hemisphere),cortex,C,volume,True
+Volume of transversetemporal (left hemisphere),Volume of transversetemporal (left hemisphere),cortex,C,volume,True
+Volume of transversetemporal (right hemisphere),Volume of transversetemporal (right hemisphere),cortex,C,volume,True

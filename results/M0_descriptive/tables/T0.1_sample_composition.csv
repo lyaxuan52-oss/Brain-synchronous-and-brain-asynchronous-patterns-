@@ -1,0 +1,14 @@
+metric,N
+N_total_age_gap,44810
+N_with_demographics,7954
+N_brain_global(eTIV),3960
+N_brain_global(BrainSegVol),3960
+N_brain_subcortical,5653
+N_disease,7383
+N_cog_FluidIntelligence,7282
+N_cog_ReactionTime,7352
+N_cog_NumericMemory,3796
+N_cog_TowerRearranging,3653
+N_cog_PairedAssociateLearning,6152
+N_cog_TrailMaking_Numeric,6095
+N_cog_TrailMaking_Alphanumeric,5949

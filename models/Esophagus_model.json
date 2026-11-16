@@ -1,0 +1,17 @@
+{
+  "organ": "Esophagus",
+  "intercept": 56.801088365338906,
+  "coefficients": {
+    "olink_instance_0.cst5": 1.6751868124707945,
+    "olink_instance_0.defb4a_defb4b": 0.5322832253109259,
+    "olink_instance_0.gbp6": -0.18200781210589992,
+    "olink_instance_0.il36a": -0.17385454568928596
+  },
+  "alpha": 0.0016469168530834878,
+  "n_features": 4,
+  "n_features_selected": 4,
+  "train_r2": 0.04639085044072988,
+  "test_r2": 0.04336697487030006,
+  "train_mae": 6.812991061434719,
+  "test_mae": 6.775881151274971
+}

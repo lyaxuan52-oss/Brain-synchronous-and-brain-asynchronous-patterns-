@@ -1,0 +1,24 @@
+{
+  "organ": "Lung",
+  "intercept": 56.813063045693404,
+  "coefficients": {
+    "olink_instance_0.ager": -0.4718363344740223,
+    "olink_instance_0.alpp": -0.1305897198615737,
+    "olink_instance_0.ccl18": 1.0994285000893405,
+    "olink_instance_0.csf2": 0.19782787345048053,
+    "olink_instance_0.lamp3": 1.5637419833857888,
+    "olink_instance_0.scgb1a1": 1.5408096495515384,
+    "olink_instance_0.scgb3a2": 0.17590661354113138,
+    "olink_instance_0.sftpa1": -0.030911512284602857,
+    "olink_instance_0.sftpa2": 0.1524602185501938,
+    "olink_instance_0.sftpd": 0.7463219616978529,
+    "olink_instance_0.vipr1": -0.19365834995535805
+  },
+  "alpha": 0.0021849547678038242,
+  "n_features": 11,
+  "n_features_selected": 11,
+  "train_r2": 0.13794774220334505,
+  "test_r2": 0.1290259832769337,
+  "train_mae": 6.3699970114843145,
+  "test_mae": 6.348882184798187
+}

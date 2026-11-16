@@ -1,0 +1,32 @@
+{
+  "organ": "Skin",
+  "intercept": 56.79680671464027,
+  "coefficients": {
+    "olink_instance_0.blmh": -0.020212494987251646,
+    "olink_instance_0.ca6": -0.7277409083553532,
+    "olink_instance_0.ccl27": 2.2515720798105052,
+    "olink_instance_0.cd207": 0.2280908653303258,
+    "olink_instance_0.cdhr1": -0.46066836830880714,
+    "olink_instance_0.cdsn": 0.9275885380050739,
+    "olink_instance_0.cst6": -1.279509563572596,
+    "olink_instance_0.dsg4": -0.6035530513797572,
+    "olink_instance_0.fabp9": -0.8941278720289889,
+    "olink_instance_0.gata3": 0.0395099164800279,
+    "olink_instance_0.krt14": -0.03698045153399077,
+    "olink_instance_0.lgals7_lgals7b": 0.6913375497116119,
+    "olink_instance_0.pof1b": 0.5465887336838354,
+    "olink_instance_0.psapl1": 0.05698864468226006,
+    "olink_instance_0.s100a3": 0.1340092139128651,
+    "olink_instance_0.scgb2a2": -0.10363167628498658,
+    "olink_instance_0.serpina12": -0.2957211680559024,
+    "olink_instance_0.spint3": 0.04179819001079481,
+    "olink_instance_0.tyrp1": 0.03185016888680612
+  },
+  "alpha": 0.0025092811912859787,
+  "n_features": 19,
+  "n_features_selected": 19,
+  "train_r2": 0.18126284143890625,
+  "test_r2": 0.17801903256731455,
+  "train_mae": 6.186098664837061,
+  "test_mae": 6.150963149939926
+}
