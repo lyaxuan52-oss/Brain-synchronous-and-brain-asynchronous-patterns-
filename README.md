@@ -13,7 +13,7 @@ mediation analyses through brain structure.
 ## Repository layout
 
 ```
-scripts/                  upstream pipeline (proteomics -> organ clocks)
+scripts/                   upstream pipeline (proteomics -> organ clocks)
   01_preprocess_proteomics.py   QC, z-score, KNN imputation (k = 152)
   02_organ_enrichment.py        ST2 organ-enriched panels -> per-organ matrices
   03_train_organ_clocks.py      LassoCV organ clocks, age-bias-corrected gaps
